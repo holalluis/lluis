@@ -14,16 +14,17 @@
   <div>
     <h3>Benvingut</h3>
     <p>
-    Hola, em dic Lluís Bosch (Girona 1989) i aquesta és la meva pàgina personal. 
-    Aquí hi trobaràs informació en català sobre ciència, tecnologia, informàtica i open source, des d'un punt de vista lliure i minimalista.
-
+      Hola, em dic Lluís Bosch (Girona 1989) i aquesta és la meva pàgina personal. 
+      Aquí trobaràs informació en català sobre ciència, tecnologia, informàtica i open source,
+      des d'un punt de vista lliure i minimalista.
     </p>
+
     Sóc:
     <ul>
-      <li>Informàtic/programador: MSc en tecnologies de la informació (UdG 2012).
+      <li>Informàtic/programador: MSc en Computer Science (UdG 2012).
       <li>Científic: Biotecnologia (UAB 2011).
       <li>Aficionat a l'electrònica DIY (autodidacta). 
-      <li>Aficionat a la producció musical (autodidacta) i ocasionalment DJ.
+      <li>Aficionat a la producció musical i ocasionalment DJ (autodidacta).
       <li>Treballo al centre de recerca <a href=//icra.cat target=_blank>ICRA</a> des del 2013.
     </ul>
   </div>
@@ -52,9 +53,10 @@
   <div>
     <h3>El meu setup</h3>
     <div>
-      La majoria del temps només utilitzo un terminal i un explorador web (Chrome o Firefox).
-      <br>
-      Els programes que faig servir són majoritàriament gratuïts i de codi obert:
+      <p>
+        La majoria del temps només utilitzo un terminal i un explorador web (Chrome o Firefox).
+        Els programes que faig servir són majoritàriament gratuïts i de codi obert:
+      </p>
     </div>
     <ul>
       <li>Sistem Operatiu:          <a href="https://www.gnu.org/">GNU Linux</a> 
