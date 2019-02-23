@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:400,700|Roboto:300,400,700');
+
+body{
+  overflow-y:scroll;
+  font-family: 'Roboto', verdana;
+  color: #5C5C5C;
+  font-size:14px;
+}
+
+h1,h2,h3{
+  margin:5px auto;
+}
+
+ul{
+  padding-left:1.5em;
+}
+
+.flex {
+  display:flex;
+  flex-wrap:wrap;
+}
+
+main{
+  display:grid;
+  grid-template-columns:60% 40%;
+  grid-gap:2px;
+}
+
+main > div{
+  border-bottom:1px solid #ccc;
+  border-right:1px solid #ccc;
+}
