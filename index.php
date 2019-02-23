@@ -100,7 +100,7 @@
     </ul>
   </div>
 
-  <!--lenguatges-->
+  <!--lenguatges
   <div>
     <h3>Llenguatges de programació que conec</h3>
     <ul>
@@ -117,5 +117,6 @@
       <li>Java
     </ul>
   </div>
+  -->
 
 </main>
