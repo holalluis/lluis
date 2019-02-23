@@ -1,5 +1,9 @@
 #!/bin/bash
 
+#git
+git add *
+git commit -am 'update'
+
 #desplega la web al servidor
 # -h  human readable format
 # -P  mostra progrés
