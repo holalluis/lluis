@@ -14,7 +14,7 @@
   <div>
     <h3>Benvingut</h3>
     <p>
-      Hola, em dic Lluís Bosch (Girona 1989) i aquesta és la meva pàgina personal. 
+      Hola, em dic Lluís Mª Bosch (Girona 1989) i aquesta és la meva pàgina personal. 
       Aquí trobaràs informació en català sobre ciència, tecnologia, informàtica i open source,
       des d'un punt de vista lliure i minimalista.
     </p>
