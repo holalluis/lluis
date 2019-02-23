@@ -10,7 +10,7 @@
   </style>
 </head><body>
 
-<h2>Blog</h2>
+<h2><a href=../>Inici</a> / Blog</h2>
 
 <ul>
 <?php

@@ -57,24 +57,25 @@
       Els programes que faig servir són majoritàriament gratuïts i de codi obert:
     </div>
     <ul>
-      <li>Sistem Operatiu: GNU Linux <a href=//debian.org                        target=_blank>debian</a> (amb 
-                                     <a href="//i3wm.org"                        target=_blank>i3</a> /
-                                     <a href="//gnome.org"                       target=_blank>gnome</a>).
-      <li>Shell:                     <a href="//gnu.org/software/bash/bash.html" target=_blank>bash</a> / 
-                                     <a href="//zsh.sourceforge.net/"            target=_blank>zsh</a>.
-      <li>Editor de text:            <a href="//www.vim.org/"                    target=_blank>vim</a>.
-      <li>Terminal manager:          <a href="//tmux.github.io"                  target=_blank>tmux</a>.
-      <li>Control de versions:       <a href="//git-scm.org"                     target=_blank>git</a>.
-      <li>Accés remot:               <a href="//ssh.com/ssh"                     target=_blank>ssh</a>.
-      <li>Agenda:                    <a href="//calcurse.org"                    target=_blank>calcurse + caldav</a>.
-      <li>Ranger:                    <a href="//ranger.github.io"                target=_blank>ranger</a> /
-                                     <a href="//vifm.info/"                      target=_blank>vifm</a>.
-      <li>Email:                     <a href="//neomutt.org"                     target=_blank>neomutt</a>.
-      <li>Fulla de càlcul:           <a href="//github.com/andmarti1424/sc-im"   target=_blank>scim</a>.
-      <li>Elaboració de documents:   <a href="//gnu.org/software/groff/"         target=_blank>groff + eqn + tbl</a>.
-      <li>Visor documents pdf:       <a href="//pwmt.org/projects/zathura/"      target=_blank>zathura</a>.
-      <li>Visor multimèdia:          <a href="//mpv.io"                          target=_blank>mpv</a>.
-      <li>Visor imatges:             <a href="https://github.com/muennich/sxiv"  target=_blank>sxiv</a>.
+      <li>Sistem Operatiu:          <a href="https://www.gnu.org/">GNU Linux</a> 
+                                    <a href=//debian.org                        target=_blank>debian</a> (amb 
+                                    <a href="//i3wm.org"                        target=_blank>i3</a> /
+                                    <a href="//gnome.org"                       target=_blank>gnome</a>).
+      <li>Shell:                    <a href="//gnu.org/software/bash/bash.html" target=_blank>bash</a> / 
+                                    <a href="//zsh.sourceforge.net/"            target=_blank>zsh</a>.
+      <li>Editor de text:           <a href="//www.vim.org/"                    target=_blank>vim</a>.
+      <li>Terminal manager:         <a href="//tmux.github.io"                  target=_blank>tmux</a>.
+      <li>Control de versions:      <a href="//git-scm.org"                     target=_blank>git</a>.
+      <li>Accés remot:              <a href="//ssh.com/ssh"                     target=_blank>ssh</a>.
+      <li>Agenda:                   <a href="//calcurse.org"                    target=_blank>calcurse + caldav</a>.
+      <li>Ranger:                   <a href="//ranger.github.io"                target=_blank>ranger</a> /
+                                    <a href="//vifm.info/"                      target=_blank>vifm</a>.
+      <li>Email:                    <a href="//neomutt.org"                     target=_blank>neomutt</a>.
+      <li>Fulla de càlcul:          <a href="//github.com/andmarti1424/sc-im"   target=_blank>scim</a>.
+      <li>Elaboració de documents:  <a href="//gnu.org/software/groff/"         target=_blank>groff + eqn + tbl</a>.
+      <li>Visor documents pdf:      <a href="//pwmt.org/projects/zathura/"      target=_blank>zathura</a>.
+      <li>Visor multimèdia:         <a href="//mpv.io"                          target=_blank>mpv</a>.
+      <li>Visor imatges:            <a href="https://github.com/muennich/sxiv"  target=_blank>sxiv</a>.
     </ul>
   </div>
 
@@ -83,9 +84,9 @@
     <h3>Links</h3>
     <ul>
       <li><a href=mail.php>mail</a>
+      <li><a href=blog>blog</a>
       <li><a href=//github.com/holalluis target=_blank>github</a>
       <li><a href=.. >les meves webs</a>
-      <li><a href=blog>blog</a>
       <li><a href=biblioteca.php>biblioteca</a>
       <li><a href=//www.linkedin.com/in/holalluis target=_blank>linkedin</a>
       <li>donacions 
