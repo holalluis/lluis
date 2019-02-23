@@ -13,11 +13,11 @@
   <!--welcome-->
   <div>
     <h3>Benvingut</h3>
-    <p>
+    <article>
       Hola, em dic Lluís Mª Bosch (Girona 1989) i aquesta és la meva pàgina personal. 
       Aquí trobaràs informació en català sobre ciència, tecnologia, informàtica i open source,
       des d'un punt de vista lliure i minimalista.
-    </p>
+    </article>
 
     Sóc:
     <ul>
@@ -53,10 +53,10 @@
   <div>
     <h3>El meu setup</h3>
     <div>
-      <p>
+      <article>
         La majoria del temps només utilitzo un terminal i un explorador web (Chrome o Firefox).
         Els programes que faig servir són majoritàriament gratuïts i de codi obert:
-      </p>
+      </article>
     </div>
     <ul>
       <li>Sistem Operatiu:          <a href="https://www.gnu.org/">GNU Linux</a> 
