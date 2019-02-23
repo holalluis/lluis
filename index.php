@@ -19,7 +19,7 @@
       des d'un punt de vista lliure i minimalista.
     </article>
 
-    Sóc:
+    <article> Sóc: </article>
     <ul>
       <li>Informàtic/programador: MSc en Computer Science (UdG 2012).
       <li>Científic: Biotecnologia (UAB 2011).
