@@ -25,7 +25,7 @@
       <li>Científic: Biotecnologia (UAB 2011).
       <li>Aficionat a l'electrònica DIY (autodidacta). 
       <li>Aficionat a la producció musical i ocasionalment DJ (autodidacta).
-      <li>Treballo al centre de recerca <a href=//icra.cat target=_blank>ICRA</a> des del 2013.
+      <li>Treballo al centre de recerca <a href=//github.com/icra target=_blank>ICRA</a> des del 2013.
     </ul>
   </div>
 
@@ -41,7 +41,7 @@
         $i=0;
         foreach($files_in_dir as $file){
           if($file=='index.php')continue;
-          echo "<li><a href='blog/$file'>$file</a>";
+          echo "<li><small><a href='blog/$file'>$file</a></small>";
           $i++; 
           if($i>10)break;
         }
@@ -49,7 +49,7 @@
     </ul>
   </div>
 
-  <!--my setup-->
+  <!--setup-->
   <div>
     <h3>El meu setup</h3>
     <div>
@@ -99,4 +99,23 @@
       </li>
     </ul>
   </div>
+
+  <!--lenguatges-->
+  <div>
+    <h3>Llenguatges de programació que conec</h3>
+    <ul>
+      <li>Javascript
+      <li>C/C++
+      <li>PHP
+      <li>HTML/CSS
+      <li>Python
+      <li>Shell (bash)
+      <li>SQL (MySQL/sqlite)
+      <li>M (matlab/octave)
+      <li>R
+      <li>C#
+      <li>Java
+    </ul>
+  </div>
+
 </main>

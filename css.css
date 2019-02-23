@@ -27,7 +27,7 @@ ul{
 
 main{
   display:grid;
-  grid-template-columns:60% 40%;
+  grid-template-columns:62% 38%;
   grid-gap:2px;
 }
 
