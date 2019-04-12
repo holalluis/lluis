@@ -16,13 +16,23 @@
 
 <ul>
 <?php
+  include '../timeAgo.php';
+
   $dir = getcwd();
   $files_in_dir=array_diff(scandir($dir),array('..', '.'));
   rsort($files_in_dir);
   foreach($files_in_dir as $file){
-    if($file=='index.php')continue;
 
-    echo "<li><a href='$file'>$file</a>";
+    if($file=='index.php')continue;
+    if($file[0]=='.')continue;
+
+    $data = substr($file,0,10);
+    $ago =timeAgo($data);
+
+    $nom = str_replace('.html','',$file);
+    $nom = str_replace('_-_',' - ',$nom);
+
+    echo "<li><a href='$file'>$nom</a> ($ago)";
   }
 ?>
 </ul>

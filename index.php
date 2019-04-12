@@ -52,6 +52,8 @@
         $i=0;
         foreach($files_in_dir as $file){
           if($file=='index.php')continue;
+          if($file[0]=='.')continue;
+
           $date = substr($file,0,10); //string de 10 caràcters
           $timeago = timeAgo($date);  //string
           $nom = substr($file,13); //nom article
