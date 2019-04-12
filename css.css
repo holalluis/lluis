@@ -9,9 +9,9 @@ body{
 https://jrl.ninja/etc/1/
 */
 main {
-  max-width: 80ch;
-  padding: 1.5rem;
-  margin: auto;
+  max-width:80ch;
+  padding:1rem;
+  margin:auto;
 }
 
 hr{
