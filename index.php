@@ -26,7 +26,7 @@
     <h3>Benvingut</h3>
     <article>
       <p>
-      Em dic Lluís Bosch, sóc d'Anglès (Girona), vaig néixer el 1989 i aquesta
+      Em dic Lluís, sóc d'Anglès (Girona), vaig néixer el 1989 i aquesta
       és la meva pàgina personal. Aquí trobaràs informació sobre informàtica,
       tecnologia, ciència i matemàtiques en català. Tinc preferència pel
       software lliure i pel minimalisme.
