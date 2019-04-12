@@ -28,7 +28,7 @@
       <p>
       Em dic Lluís Bosch, sóc d'Anglès (Girona), vaig néixer el 1989 i aquesta
       és la meva pàgina personal. Aquí trobaràs informació sobre informàtica,
-      tecnologia, ciència i matemàtiques, en català. Tinc preferència pel
+      tecnologia, ciència i matemàtiques en català. Tinc preferència pel
       software lliure i pel minimalisme.
       </p>
 
