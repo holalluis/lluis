@@ -25,9 +25,13 @@
   <div>
     <h3>Benvingut</h3>
     <article>
-      Hola, em dic Lluís Bosch (Girona 1989) i aquesta és la meva pàgina personal.
-      Aquí trobaràs informació en català sobre ciència, tecnologia i informàtica.
-      Tinc preferència pel software lliure i pel minimalisme.
+      <p>
+      Em dic Lluís Bosch, sóc d'Anglès (Girona), vaig néixer el 1989 i aquesta
+      és la meva pàgina personal. Aquí trobaràs informació sobre informàtica,
+      tecnologia, ciència i matemàtiques, en català. Tinc preferència pel
+      software lliure i pel minimalisme.
+      </p>
+
     </article>
 
     <p> Sóc: </p>
@@ -73,8 +77,12 @@
   <!--setup-->
   <div>
     <h3>Setup</h3>
+
+      <p><i>"Let's use the terminal more, because if you don't use it, your brain gets
+      sloppy, and you don't want a sloppy brain".</i></p>
+
     <ul>
-      <li>Sistem Operatiu:          <a href="https://www.gnu.org/">GNU Linux</a>
+      <li>Sistem operatiu:          <a href="https://www.gnu.org/">GNU Linux</a>
                                     <a href=//debian.org                        target=_blank>debian</a> (amb
                                     <a href="//i3wm.org"                        target=_blank>i3</a> /
                                     <a href="//gnome.org"                       target=_blank>gnome</a>).

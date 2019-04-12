@@ -12,7 +12,7 @@
 </head><body>
 <main>
 
-<h2><a href=../>Inici</a> / Blog</h2>
+<h2 style=text-align:center><a href=../>Inici</a> / Blog</h2>
 
 <ul>
 <?php
