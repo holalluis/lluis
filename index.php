@@ -4,9 +4,20 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" href="img/favicon.png" type="image/x-icon">
   <title>lluis.ovh</title>
+
+  <style>
+    main{
+      display:grid;
+      grid-template-columns:62% 38%;
+      grid-gap:10px;
+    }
+
+    main > div{
+    }
+  </style>
 </head><body>
 
-<h1 style="border-bottom:1px solid #ccc">lluis.ovh</h1>
+<h1 style=text-align:center>lluis.ovh</h1>
 
 <!--main-->
 <main>
@@ -14,26 +25,26 @@
   <div>
     <h3>Benvingut</h3>
     <article>
-      Hola, em dic Lluís Mª Bosch (Girona 1989) i aquesta és la meva pàgina personal. 
+      Hola, em dic Lluís Bosch (Girona 1989) i aquesta és la meva pàgina personal.
       Aquí trobaràs informació en català sobre ciència, tecnologia i informàtica,
       des d'un punt de vista lliure i minimalista.
     </article>
 
     <p> Sóc: </p>
     <ul>
-      <li>Informàtic/programador: MSc en Computer Science (UdG 2012).
-      <li>Científic: Biotecnologia (UAB 2011).
-      <li>Aficionat a l'electrònica DIY (autodidacta). 
-      <li>Aficionat a la producció musical i ocasionalment DJ (autodidacta).
+      <li>MSc en Computer Science     (<a href=//udg.edu target=_blank>UdG</a> 2012).
+      <li>Llicenciat en Biotecnologia (<a href=//uab.cat target=_blank>UAB</a> 2011).
       <li>Treballo al centre de recerca <a href=//github.com/icra target=_blank>ICRA</a> des del 2013.
     </ul>
   </div>
 
-  <!--blogs recents-->
+  <!--blog-->
   <div>
-    <h3>Entrades recents al <a href=blog>blog</a></h3>
+    <h3><a href=blog>Blog</a> (últimes 10 entrades)</h3>
     <ul>
       <?php
+        include 'timeAgo.php'; //function
+
         //mostra 10 entrades blog
         $dir = getcwd()."/blog";
         $files_in_dir=array_diff(scandir($dir),array('..', '.'));
@@ -41,8 +52,16 @@
         $i=0;
         foreach($files_in_dir as $file){
           if($file=='index.php')continue;
-          echo "<li><small><a href='blog/$file'>$file</a></small>";
-          $i++; 
+          $date = substr($file,0,10); //string de 10 caràcters
+          $timeago = timeAgo($date);  //string
+          $nom = substr($file,13); //nom article
+          $nom = str_replace('_',' ',$nom);
+          $nom = str_replace('.html','',$nom);
+          $nom = preg_replace('/(\w)-(\w)/i','$1 $2',$nom);
+          $nom = ucfirst($nom);
+
+          echo "<li><small><a href='blog/$file'>$nom</a> ($timeago)</small>";
+          $i++;
           if($i>10)break;
         }
       ?>
@@ -51,23 +70,19 @@
 
   <!--setup-->
   <div>
-    <h3>El meu setup</h3>
-    <div>
-      <article>
-        La majoria del temps només utilitzo un terminal i un explorador web (Chrome o Firefox).
-        Els programes que faig servir són majoritàriament gratuïts i de codi obert:
-      </article>
-    </div>
+    <h3>Setup</h3>
     <ul>
-      <li>Sistem Operatiu:          <a href="https://www.gnu.org/">GNU Linux</a> 
-                                    <a href=//debian.org                        target=_blank>debian</a> (amb 
+      <li>Sistem Operatiu:          <a href="https://www.gnu.org/">GNU Linux</a>
+                                    <a href=//debian.org                        target=_blank>debian</a> (amb
                                     <a href="//i3wm.org"                        target=_blank>i3</a> /
                                     <a href="//gnome.org"                       target=_blank>gnome</a>).
-      <li>Shell:                    <a href="//gnu.org/software/bash/bash.html" target=_blank>bash</a> / 
-                                    <a href="//zsh.sourceforge.net/"            target=_blank>zsh</a>.
-      <li>Editor de text:           <a href="//www.vim.org/"                    target=_blank>vim</a>.
       <li>Terminal manager:         <a href="//tmux.github.io"                  target=_blank>tmux</a>.
+      <li>Editor de text:           <a href="//www.vim.org/"                    target=_blank>vim</a> /
+                                    <a href="//neovim.io/"                      target=_blank>neovim</a>.
       <li>Control de versions:      <a href="//git-scm.org"                     target=_blank>git</a>.
+      <li>Shell:                    <a href="//gnu.org/software/bash/bash.html" target=_blank>bash</a> /
+                                    <a href="//https://fishshell.com/"          target=_blank>fish</a> /
+                                    <a href="//zsh.sourceforge.net/"            target=_blank>zsh</a>.
       <li>Accés remot:              <a href="//ssh.com/ssh"                     target=_blank>ssh</a>.
       <li>Agenda:                   <a href="//calcurse.org"                    target=_blank>calcurse + caldav</a>.
       <li>Ranger:                   <a href="//ranger.github.io"                target=_blank>ranger</a> /
@@ -76,22 +91,23 @@
       <li>Fulla de càlcul:          <a href="//github.com/andmarti1424/sc-im"   target=_blank>scim</a>.
       <li>Elaboració de documents:  <a href="//gnu.org/software/groff/"         target=_blank>groff + eqn + tbl</a>.
       <li>Visor documents pdf:      <a href="//pwmt.org/projects/zathura/"      target=_blank>zathura</a>.
-      <li>Visor multimèdia:         <a href="//mpv.io"                          target=_blank>mpv</a>.
+      <li>Reproductor multimèdia:   <a href="//mpv.io"                          target=_blank>mpv</a> /
+                                    <a href="//videolan.org"                    target=_blank>vlc</a>.
       <li>Visor imatges:            <a href="https://github.com/muennich/sxiv"  target=_blank>sxiv</a>.
     </ul>
   </div>
 
-  <!--links-->
+  <!--info-->
   <div>
-    <h3>Links</h3>
+    <h3>Info</h3>
     <ul>
+      <li><a href=//github.com/holalluis target=_blank>github</a>
       <li><a href=mail.php>mail</a>
       <li><a href=blog>blog</a>
-      <li><a href=//github.com/holalluis target=_blank>github</a>
-      <li><a href=.. >les meves webs</a>
+      <li><a href=//lluis.ovh >webs</a>
       <li><a href=biblioteca.php>biblioteca</a>
       <li><a href=//www.linkedin.com/in/holalluis target=_blank>linkedin</a>
-      <li>donacions 
+      <li>donacions
         <ul>
           <li><a href=//paypal.me/lluisma/1 target=_blank>paypal</a>
           <li><a href=donacions/bitcoin.php>bitcoin</a>
@@ -99,24 +115,4 @@
       </li>
     </ul>
   </div>
-
-  <!--lenguatges
-  <div>
-    <h3>Llenguatges de programació que conec</h3>
-    <ul>
-      <li>Javascript
-      <li>C/C++
-      <li>PHP
-      <li>HTML/CSS
-      <li>Python
-      <li>Shell (bash)
-      <li>SQL (MySQL/sqlite)
-      <li>M (matlab/octave)
-      <li>R
-      <li>C#
-      <li>Java
-    </ul>
-  </div>
-  -->
-
 </main>

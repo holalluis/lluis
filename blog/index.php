@@ -10,6 +10,7 @@
     }
   </style>
 </head><body>
+<main>
 
 <h2><a href=../>Inici</a> / Blog</h2>
 

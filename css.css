@@ -4,6 +4,21 @@ body{
   overflow-y:scroll;
 }
 
+/*
+58 bytes of css to look great nearly everywhere
+https://jrl.ninja/etc/1/
+*/
+main {
+  max-width: 80ch;
+  padding: 1.5rem;
+  margin: auto;
+}
+
+hr{
+  border:none;
+  border-bottom:1px solid #ccc;
+}
+
 h1,h2,h3{
   margin:5px auto;
 }
@@ -23,15 +38,4 @@ ul{
 .flex {
   display:flex;
   flex-wrap:wrap;
-}
-
-main{
-  display:grid;
-  grid-template-columns:62% 38%;
-  grid-gap:2px;
-}
-
-main > div{
-  border-bottom:1px solid #ccc;
-  border-right:1px solid #ccc;
 }
