@@ -109,13 +109,13 @@
 
   <!--info-->
   <div>
-    <h3>Info</h3>
+    <h3>Info / contacte</h3>
     <ul>
-      <li><a href=//github.com/holalluis target=_blank>github</a>
       <li><a href=mail.php>mail</a>
-      <li><a href=//lluis.ovh >webs</a>
-      <li><a href=biblioteca.php>biblioteca</a>
+      <li><a href=//github.com/holalluis target=_blank>github</a>
       <li><a href=//www.linkedin.com/in/holalluis target=_blank>linkedin</a>
+      <li><a href=biblioteca.php>biblioteca</a>
+      <li><a href=//lluis.ovh >webs</a>
       <li>donacions
         <ul>
           <li><a href=//paypal.me/lluisma/1 target=_blank>paypal</a>

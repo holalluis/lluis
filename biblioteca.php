@@ -1,2 +1,2 @@
 
-futur: llibres gratis pdf/epub
+futur: llibres gratis pdf / epub
