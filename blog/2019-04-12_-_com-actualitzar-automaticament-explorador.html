@@ -36,7 +36,7 @@ Google Chrome per no haver de fer-ho jo manualment.<p>
 Es pot fer a Mac OS X fent servir <inline>osascript</inline> o en Linux fent
 servir <inline>PENDENT</inline>. Anomenem el nou arxiu
 <inline>reload-chrome.sh</inline> fent servir el nostre editor preferit. Jo
-faig servir <inline>vim</inline> dins un terminal:</p>
+faig servir l'editor <inline>vim</inline> directament al terminal:</p>
 
 <pre class=prettyprint>
   <code>
@@ -47,9 +47,17 @@ faig servir <inline>vim</inline> dins un terminal:</p>
 <pre class=prettyprint>
   <code>
   #!/bin/bash
-  #reload-chrome.sh for Mac OS X
+  #reload-chrome.sh per Mac OS X
   osascript -e 'tell application "Google Chrome" to tell the active tab \
     of its first window to reload'
+  </code>
+</pre>
+
+<pre class=prettyprint>
+  <code>
+  #!/bin/bash
+  #reload-chrome.sh per Linux
+  PENDENT
   </code>
 </pre>
 
@@ -58,7 +66,7 @@ Chrome" per "Firefox".</p></small>
 
 <p>Ara, guardem el nou arxiu a la nostra carpeta personal, així hi podrem
 accedir fàcilment fent <inline>~/reload-chrome.sh</inline>. Ara, necessitem que
-aquest script sigui executable. En un terminal fem:</p>
+aquest script que acabem de crear sigui executable. En un terminal fem:</p>
 
 <pre class=prettyprint>
   <code>
@@ -111,7 +119,7 @@ Imagina't ara totes les tasques que pots automatitzar, ja que pots cridar
 qualsevol comanda enlloc de <inline>reload-chrome.sh<inline> </p>
 
 <p>Jo sempre executo la comanda anterior dins una sessió de
-<inline>tmux</inline>, per tenir un procés al 'background', i no haver de tenir
+<inline>tmux</inline>, per tenir el procés al 'background', i no haver de tenir
 una pestanya oberta amb la comanda <inline>entr</inline>.</p>
 
 <p>Salut!</p>

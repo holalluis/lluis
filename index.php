@@ -26,15 +26,15 @@
     <h3>Benvingut</h3>
     <article>
       Hola, em dic Lluís Bosch (Girona 1989) i aquesta és la meva pàgina personal.
-      Aquí trobaràs informació en català sobre ciència, tecnologia i informàtica,
-      des d'un punt de vista lliure i minimalista.
+      Aquí trobaràs informació en català sobre ciència, tecnologia i informàtica.
+      Tinc preferència pel software lliure i pel minimalisme.
     </article>
 
     <p> Sóc: </p>
     <ul>
       <li>MSc en Computer Science     (<a href=//udg.edu target=_blank>UdG</a> 2012).
       <li>Llicenciat en Biotecnologia (<a href=//uab.cat target=_blank>UAB</a> 2011).
-      <li>Treballo al centre de recerca <a href=//github.com/icra target=_blank>ICRA</a> des del 2013.
+      <li>Treballo al centre de recerca <a href=//github.com/icra target=_blank>ICRA</a> (2013-actualitat).
     </ul>
   </div>
 
