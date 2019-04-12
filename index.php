@@ -95,7 +95,7 @@
                                     <a href="//zsh.sourceforge.net/"            target=_blank>zsh</a>.
       <li>Accés remot:              <a href="//ssh.com/ssh"                     target=_blank>ssh</a>.
       <li>Agenda:                   <a href="//calcurse.org"                    target=_blank>calcurse + caldav</a>.
-      <li>Ranger:                   <a href="//ranger.github.io"                target=_blank>ranger</a> /
+      <li>Explorador:               <a href="//ranger.github.io"                target=_blank>ranger</a> /
                                     <a href="//vifm.info/"                      target=_blank>vifm</a>.
       <li>Email:                    <a href="//neomutt.org"                     target=_blank>neomutt</a>.
       <li>Fulla de càlcul:          <a href="//github.com/andmarti1424/sc-im"   target=_blank>scim</a>.
