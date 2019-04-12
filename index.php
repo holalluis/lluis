@@ -44,7 +44,7 @@
 
   <!--blog-->
   <div>
-    <h3><a href=blog>Blog</a> (últimes 10 entrades)</h3>
+    <h3><a href=blog>Blog</a> (entrades recents)</h3>
     <ul>
       <?php
         include 'timeAgo.php'; //function
