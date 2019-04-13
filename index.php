@@ -93,7 +93,7 @@
     <h3>Seccions</h3>
     <ul>
       <li><a href=blog>blog</a>
-      <li><a href=biblioteca.php>biblioteca</a>
+      <li><a href=biblioteca>biblioteca</a>
       <li><a href=//lluis.ovh >webs</a>
       <li>sobre mi<ul>
         <li><a href=mail.php>email</a>
