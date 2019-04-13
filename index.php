@@ -26,14 +26,11 @@
     <h3>Benvingut</h3>
     <article>
       <p>
-      Em dic Lluís, sóc d'Anglès (Girona), vaig néixer el 1989 i aquesta
-      és la meva pàgina personal. Aquí trobaràs informació sobre informàtica,
-      tecnologia, ciència i matemàtiques en català. Tinc preferència pel
-      software lliure i pel minimalisme.
+      Em dic Lluís Bosch i aquesta és la meva pàgina personal. Informàtica,
+      programació, tecnologia, ciència i matemàtiques en català. Tinc preferència pel
+      software lliure i el minimalisme.
       </p>
-
     </article>
-
     <p> Sóc: </p>
     <ul>
       <li>MSc en Computer Science     (<a href=//udg.edu target=_blank>UdG</a> 2012).
@@ -44,7 +41,7 @@
 
   <!--blog-->
   <div>
-    <h3><a href=blog>Blog</a> <small>(entrades recents)</small></h3>
+    <h3><a href=blog>Blog</a> <small>(recents)</small></h3>
     <ul>
       <?php
         include 'timeAgo.php'; //function
@@ -109,13 +106,16 @@
 
   <!--info-->
   <div>
-    <h3>Info / contacte</h3>
+    <h3>Seccions</h3>
     <ul>
-      <li><a href=mail.php>mail</a>
-      <li><a href=//github.com/holalluis target=_blank>github</a>
-      <li><a href=//www.linkedin.com/in/holalluis target=_blank>linkedin</a>
+      <li><a href=blog>blog</a>
       <li><a href=biblioteca.php>biblioteca</a>
       <li><a href=//lluis.ovh >webs</a>
+      <li>contacte<ul>
+        <li><a href=mail.php>email</a>
+        <li><a href=//github.com/holalluis target=_blank>github</a>
+        <li><a href=//www.linkedin.com/in/holalluis target=_blank>linkedin</a>
+      </ul>
       <li>donacions
         <ul>
           <li><a href=//paypal.me/lluisma/1 target=_blank>paypal</a>
