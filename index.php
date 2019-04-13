@@ -22,22 +22,15 @@
     <h3>Benvingut</h3>
     <article>
       <p>
-      Em dic Lluís Bosch i aquesta és la meva pàgina personal. Informàtica,
-      programació, tecnologia, ciència i matemàtiques en català. Tinc preferència pel
-      software lliure i el minimalisme.
+      Em dic Lluís Bosch i aquesta és la meva pàgina personal. M'agraden els ordinadors,
+      programar, el software lliure, la tecnologia, la ciència, les matemàtiques i el minimalisme.
       </p>
     </article>
-    <p> Sóc: </p>
-    <ul>
-      <li>MSc en Computer Science     (<a href=//udg.edu target=_blank>UdG</a> 2012).
-      <li>Llicenciat en Biotecnologia (<a href=//uab.cat target=_blank>UAB</a> 2011).
-      <li>Treballo al centre de recerca <a href=//github.com/icra target=_blank>ICRA</a> (2013-actualitat).
-    </ul>
   </div>
 
   <!--blog-->
   <div>
-    <h3><a href=blog>Blog</a> <small>(recents)</small></h3>
+    <h3><a href=blog>Blog</a> <small>(entrades recents)</small></h3>
     <ul>
       <?php
         include 'timeAgo.php'; //function
@@ -102,10 +95,11 @@
       <li><a href=blog>blog</a>
       <li><a href=biblioteca.php>biblioteca</a>
       <li><a href=//lluis.ovh >webs</a>
-      <li>contacte<ul>
+      <li>sobre mi<ul>
         <li><a href=mail.php>email</a>
         <li><a href=//github.com/holalluis target=_blank>github</a>
         <li><a href=//www.linkedin.com/in/holalluis target=_blank>linkedin</a>
+        <li><a href=cv.php>currículum</a>
       </ul>
       <li>donacions
         <ul>
