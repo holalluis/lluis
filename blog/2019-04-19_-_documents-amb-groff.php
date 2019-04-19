@@ -39,12 +39,11 @@ En definitiva, vols treballar de forma còmoda i augmentar la complexitat quan
 faci falta, de forma incremental.
 </p><p>
 
-Doncs estàs de sort perquè
-<a href="https://es.wikipedia.org/wiki/Groff">groff</a>
-és la peça perfecta: <inline>groff</inline> és una comanda que permet produir
-documents PDF (entre d'altres formats) formatejats a partir de documents de
-text. Moltes distribucions Linux i Mac OS X ja el porten instal·lat (el sistema
-de manuals d'Unix, <inline>man</inline>, està fet amb <inline>groff</inline>).
+Estàs de sort perquè la comanda <inline>groff</inline> és la peça perfecta:
+permet produir documents (pdf, ps, etc) formatejats a partir de documents de
+text. Moltes distribucions Linux i Mac OS X ja el porten instal·lat de sèrie
+(per posar un exemple, el sistema de manuals d'Unix, <inline>man</inline>, està
+fet amb <inline>groff</inline>).
 </p><p>
 
 Si no tens <inline>groff</inline> instal·lat, obre un terminal i escriu:
@@ -59,20 +58,11 @@ Si no tens <inline>groff</inline> instal·lat, obre un terminal i escriu:
 Ara farem el nostre primer document amb <inline>groff</inline>.
 </p><p>
 
-Crea un nou fitxer anomenat <inline>document.ms</inline> fent servir el teu editor de text
-preferit (<inline>vim</inline>, <inline>emacs</inline>, <inline>nano</inline>, <inline>atom</inline>...):
+Crea un nou fitxer anomenat <inline>document.ms</inline>, fent servir el teu
+editor de text preferit (<inline>vim</inline>, <inline>emacs</inline>,
+<inline>nano</inline>, <inline>atom</inline>...):
 
 <pre class=groff id=document_groff>
-  <style>
-    pre.groff {
-      border-color:#eee;
-      background:#eee;
-      border-radius:3px;
-    }
-    .groff span.comanda {
-      color:blue;
-    }
-  </style>
   <code>
   <span class=comanda>.TL</span>
   El meu primer document utilitzant groff
@@ -119,6 +109,16 @@ preferit (<inline>vim</inline>, <inline>emacs</inline>, <inline>nano</inline>, <
   <span class=comanda>.EN</span>
   </code>
 </pre>
+<style>
+  pre.groff {
+    border-color:#eee;
+    background:#eee;
+    border-radius:3px;
+  }
+  .groff span.comanda {
+    color:blue;
+  }
+</style>
 
 Compila el <inline>document.ms</inline> amb la següent comanda:
 <pre class=prettyprint>
@@ -132,20 +132,20 @@ Compila el <inline>document.ms</inline> amb la següent comanda:
   </code>
 </pre>
 
-Enhorabona! Així es veu el teu primer document PDF fet amb <inline>groff</inline>:
+Enhorabona! Així es veu <a href="adjunts/document.ms.pdf">el teu primer document PDF</a> fet amb <inline>groff</inline>:
 </p><p>
 
 <div>
-  <embed src="adjunts/document.ms.pdf" width="100%" height="500px">
+  <embed src="adjunts/document.ms.pdf" width="100%" height="800px"/ alt="previsualització document.ms.pdf">
 </div>
 
 </p><p>
 
 Fantàstic. Fins aquí ha sigut molt fàcil, però ara ho sofisticarem una mica.
-Ara volem automatitzar la compilació del PDF (comanda anterior) perquè es
-compili automàticament cada cop que guardem el fitxer.  Hem de crear un fitxer
-anomenat <inline>Makefile</inline> per poder utilitzar la comanda
-<inline>make</inline>:
+Ara volem que es compili automàticament cada cop que guardem el fitxer <inline>document.ms</inline>. Hem de
+crear un fitxer anomenat <inline>Makefile</inline> per poder utilitzar la
+comanda <inline>make</inline>, que també ja hauria d'estar instal·lada:
+</p><p>
 
 <pre class=prettyprint>
   <code>
@@ -161,7 +161,7 @@ anomenat <inline>Makefile</inline> per poder utilitzar la comanda
 tabulador, donarà error.</small>
 </p><p>
 
-Ara, comprovem que el PDF es compila quan fem la comanda:
+Ara, comprovem que el PDF es compila correctament quan fem la comanda:
 <pre class=prettyprint>
   <code>
   make
@@ -200,14 +200,14 @@ aquest exemple. Per exemple, hem
 vist que <inline>.TL</inline> serveix per especificar el títol.
 
 Qualsevol cosa que ens poguem imaginar es pot fer amb <inline>groff</inline>:
-taules de contingut, bibliografies, tipus de lletra, taules...
+taules de contingut, bibliografies, gràfics, imatges...
 </p><p>
 
-El següent document és una bona introducció (en anglès) per realitzar tot tipus de
-coses amb <inline>groff</inline>:
+El següent document és una bona introducció (en anglès) per fer qualsevol cosa
+amb <inline>groff</inline>:
 
 <a href="../biblioteca/TheGroffFriendsHowto.pdf">The Groff and Friends HOWTO</a>
-(evidentment, està fet amb <inline>groff</inline>).
+(evidentment és un document fet amb <inline>groff</inline>).
 
 </p><!--fi-->
 <p>Salut!</p>
