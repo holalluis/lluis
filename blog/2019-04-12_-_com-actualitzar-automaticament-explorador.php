@@ -1,24 +1,4 @@
-<!doctype html><html><head>
-  <meta charset=utf-8>
-  <link rel="stylesheet" href="../css.css">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" href="../img/favicon.png" type="image/x-icon">
-
-  <!--prettify code lib-->
-  <script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"></script>
-  <style>
-    pre.prettyprint {
-      border-color:#eee;
-      background:#eee;
-      border-radius:3px;
-    }
-    inline {
-      background:#eee;
-      border-radius:3px;
-      font-family:monospace;
-    }
-  </style>
-</head><body><main>
+<?php include('css.php')?>
 
 <h1>Com actualitzar l'explorador automàticament mentre treballes</h1><hr>
 

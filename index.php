@@ -19,7 +19,7 @@
 <main>
   <!--welcome-->
   <div>
-    <h3>Benvingut</h3>
+    <h3>Hola</h3>
     <article>
       <p>
       Em dic Lluís Bosch i aquesta és la meva pàgina personal. M'agraden els ordinadors,
@@ -41,12 +41,14 @@
         $i=0;
         foreach($files_in_dir as $file){
           if($file=='index.php')continue;
+          if($file=='css.php')continue;
+          if($file=='adjunts')continue;
           if($file[0]=='.')continue;
           $date = substr($file,0,10); //string de 10 caràcters (data)
           $timeago = timeAgo($date);  //string ("fa 2 mesos")
           $nom = substr($file,13);    //titol article comença a la posició 13
           $nom = str_replace('_',' ',$nom);
-          $nom = str_replace('.html','',$nom);
+          $nom = str_replace('.php','',$nom);
           $nom = preg_replace('/(\w)-(\w)/i','$1 $2',$nom);
           $nom = ucfirst($nom);
           echo "<li><a href='blog/$file'>$nom</a> ($timeago)</li>";

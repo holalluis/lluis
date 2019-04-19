@@ -15,10 +15,12 @@
   rsort($files_in_dir);
   foreach($files_in_dir as $file){
     if($file=='index.php')continue;
+    if($file=='css.php')continue;
+    if($file=='adjunts')continue;
     if($file[0]=='.')continue;
     $data = substr($file,0,10);
     $ago =timeAgo($data);
-    $nom = str_replace('.html','',$file);
+    $nom = str_replace('.php','',$file);
     $nom = str_replace('_-_',' - ',$nom);
     $nom = preg_replace('/([a-z])-([a-z])/i','$1 $2',$nom);
     echo "<li><a href='$file'>$nom</a> ($ago)";
