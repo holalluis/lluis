@@ -136,7 +136,7 @@ Enhorabona! Així es veu <a href="adjunts/document.ms.pdf">el teu primer documen
 </p><p>
 
 <div>
-  <embed src="adjunts/document.ms.pdf" width="100%" height="800px"/ alt="previsualització document.ms.pdf">
+  <embed src="adjunts/document.ms.pdf" width="100%" height="500px"/ alt="previsualització document.ms.pdf">
 </div>
 
 </p><p>
