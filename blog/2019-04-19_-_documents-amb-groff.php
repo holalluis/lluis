@@ -186,7 +186,7 @@ Ara, executem <inline>entr</inline> de la forma següent:
 
 <pre class=prettyprint>
   <code>
-  echo document.ms | entr make
+  ls *.ms | entr make
   </code>
 </pre>
 
