@@ -23,7 +23,7 @@ i senzilla.  Potser fins i tot vols evitar el <inline>LaTeX</inline> perquè has
 tanta informació que no saps per on començar.
 </p><p>
 
-Evidentment, vols que sigui gratis i de codi obert, perquè som al 2019, i vols
+Evidentment, vols que sigui gratis i de codi obert, perquè vius al 2019, i vols
 un sistema que transcendeixi el temps i les empreses.
 </p><p>
 
