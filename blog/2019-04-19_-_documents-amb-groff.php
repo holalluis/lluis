@@ -39,12 +39,12 @@ En definitiva, vols treballar de forma còmoda i augmentar la complexitat quan
 faci falta, de forma incremental.
 </p><p>
 
-Doncs estàs de sort perquè <a
-href="https://es.wikipedia.org/wiki/Groff">groff</a> és la peça perfecta:
-<inline>groff</inline> és una comanda que permet produir documents PDF
-formatejats a partir de documents de text. Moltes distribucions Linux i Mac OS
-X ja el porten instal·lat (el sistema de manuals d'Unix, <inline>man</inline>,
-està fet amb <inline>groff</inline>).
+Doncs estàs de sort perquè
+<a href="https://es.wikipedia.org/wiki/Groff">groff</a>
+és la peça perfecta: <inline>groff</inline> és una comanda que permet produir
+documents PDF (entre d'altres formats) formatejats a partir de documents de
+text. Moltes distribucions Linux i Mac OS X ja el porten instal·lat (el sistema
+de manuals d'Unix, <inline>man</inline>, està fet amb <inline>groff</inline>).
 </p><p>
 
 Si no tens <inline>groff</inline> instal·lat, obre un terminal i escriu:
