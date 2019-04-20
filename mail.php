@@ -1,10 +1,10 @@
 
 <p>
-Lluis Bosch <a href=mailto:holalluis@gmail.com>holalluis@gmail.com</a>
+Lluís Bosch <a href=mailto:holalluis@gmail.com>holalluis@gmail.com</a>
 <br>
-rsa2048 2017-11-27 [caduca: 2019-11-27]
+<br>
+rsa2048 2017-11-27 [aquesta clau pública caduca el 2019-11-27]
 </p>
-
 
 <code><pre>
 -----BEGIN PGP PUBLIC KEY BLOCK-----

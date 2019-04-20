@@ -14,10 +14,11 @@
     }
   </style>
 </head><body>
+
 <h1 style=text-align:center>lluis.ovh</h1>
 
 <main>
-  <!--welcome-->
+  <!--hola-->
   <div>
     <h3>Hola</h3>
     <article>
@@ -96,14 +97,13 @@
     <ul>
       <li><a href=blog>blog</a>
       <li><a href=biblioteca>biblioteca</a>
-      <li><a href=//lluis.ovh >webs</a>
       <li>sobre mi<ul>
         <li><a href=mail.php>email</a>
         <li><a href=//github.com/holalluis target=_blank>github</a>
         <li><a href=//www.linkedin.com/in/holalluis target=_blank>linkedin</a>
         <li><a href=cv.php>currículum</a>
       </ul>
-      <li>donacions
+      <li>suport
         <ul>
           <li><a href=//paypal.me/lluisma/1 target=_blank>paypal</a>
           <li><a href=donacions/bitcoin.php>bitcoin</a>
