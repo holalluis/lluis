@@ -11,14 +11,9 @@
 <article>
 
   <p>
-  Aquest és el primer post al blog.  Aquí parlaré sobre coses que em semblin
-  interessants, sobretot relacionades amb Unix/Linux, terminals, pantalles
-  negres, programació i informàtica.
+  En aquest blog parlaré sobre coses relacionades amb Unix/Linux, terminals,
+  programació i informàtica.
   <p>
-
-  <p>També ho faré servir com a llibreta d'apunts per no oblidar coses que he
-  anat aprenent al llarg del temps, i potser també per deixar alguna cosa útil
-  al món quan marxi.</p>
 
   <p>Salut!</p>
   <p>Lluís</p>

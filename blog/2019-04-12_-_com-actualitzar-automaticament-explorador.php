@@ -12,9 +12,9 @@
 faig moltes vegades durant el dia) vull que es refresqui automàticament el
 Google Chrome per no haver de fer-ho manualment.<p>
 
-<p>Primer de tot, farem un script que refresqui l'explorador.
-Es pot fer a Mac OS X fent servir <inline>osascript</inline> o en Linux fent
-servir <inline>xdotool</inline>. Anomenem el nou arxiu
+<p>Primer de tot, necessitem un script que refresqui l'explorador.
+Es pot fer a Mac OS X fent servir <inline>osascript</inline> o a Linux, amb
+<inline>xdotool</inline>. Anomenem el nou arxiu
 <inline>reload-chrome.sh</inline> fent servir el nostre editor preferit. Jo
 faig servir l'editor <inline>vim</inline> directament al terminal:</p>
 
@@ -92,15 +92,17 @@ carpeta on estem treballant han canviat. Per instal·lar la comanda
 
 <pre class=prettyprint>
   <code>
-  $ find . | entr ~/reload-chrome.sh
+  $ find . -name "*.php" -or -name "*.css" | entr ~/reload-chrome.sh
   </code>
 </pre>
 
 <p>Fet! La comanda <inline>find</inline> és una comanda molt potent que llista
-recursivament els fitxers de la carpeta actual i també les subcarpetes.  Com
-que l'hem connectat a la comanda <inline>entr</inline>, aquesta executarà la
-comanda que se li ha especificat com a paràmetre, en aquest cas, el fitxer que
-hem creat <inline>reload-chrome.sh</inline>. </p>
+recursivament els fitxers de la carpeta actual i també les subcarpetes. Li hem
+posat un filtre <inline>-name "*.php -o -name "*.css""</inline> perquè només
+volem vigilar els arxius .php i els .css. Com que l'hem connectat a la comanda
+<inline>entr</inline>, aquesta executarà la comanda que se li ha especificat
+com a paràmetre, en aquest cas, el fitxer que hem creat
+<inline>reload-chrome.sh</inline>.</p>
 
 <p>Ara ja podem modificar qualsevol arxiu dins la carpeta i veurem que
 automàticament es refresca l'explorador.</p>
