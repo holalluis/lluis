@@ -20,7 +20,7 @@ faig servir l'editor <inline>vim</inline> directament al terminal:</p>
 
 <pre class=prettyprint>
   <code>
-  vim reload-chrome.sh
+  $ vim reload-chrome.sh
   </code>
 </pre>
 
@@ -35,19 +35,19 @@ faig servir l'editor <inline>vim</inline> directament al terminal:</p>
 
 <pre class=prettyprint>
   <code>
- #!/bin/bash
- #reload-chrome.sh per Linux
- echo "$(date --rfc-3339=seconds) Refresh: $FILE"
- CUR_WID=$(xdotool getwindowfocus)
- #gets the first $BROWSER window, if you have more than one
- #$BROWSER window open, it might not refresh the right one,
- #as an alternative you can search by the window/html title
- WID=$(xdotool search --onlyvisible --class chromium|head -1)
- #TITLE="window/html file title"
- #WID=$(xdotool search --title "$TITLE"|head -1)
- xdotool windowactivate $WID
- xdotool key 'ctrl+r'
- xdotool windowactivate $CUR_WID
+  #!/bin/bash
+  #reload-chrome.sh per Linux
+  echo "$(date --rfc-3339=seconds) Refresh: $FILE"
+  CUR_WID=$(xdotool getwindowfocus)
+  #gets the first $BROWSER window, if you have more than one
+  #$BROWSER window open, it might not refresh the right one,
+  #as an alternative you can search by the window/html title
+  WID=$(xdotool search --onlyvisible --class chromium|head -1)
+  #TITLE="window/html file title"
+  #WID=$(xdotool search --title "$TITLE"|head -1)
+  xdotool windowactivate $WID
+  xdotool key 'ctrl+r'
+  xdotool windowactivate $CUR_WID
   </code>
 </pre>
 
@@ -60,15 +60,16 @@ aquest script que acabem de crear sigui executable. En un terminal fem:</p>
 
 <pre class=prettyprint>
   <code>
-  chmod +x ~/reload-chrome.sh
+  $ chmod +x ~/reload-chrome.sh
   </code>
 </pre>
 
 <p>Ara executem l'script <inline>reload-chrome.sh</inline> per comprovar si
 funciona:</p>
 
-<pre class=prettyprint> <code>
-  ~/reload-chrome.sh
+<pre class=prettyprint>
+  <code>
+  $ ~/reload-chrome.sh
   </code>
 </pre>
 
@@ -81,8 +82,8 @@ carpeta on estem treballant han canviat. Per instal·lar la comanda
 
 <pre class=prettyprint>
   <code>
-  brew install entr # a mac os x
-  sudo apt-get install entr # a linux
+  $ brew install entr     # mac os x
+  $ sudo apt install entr # linux (debian, ubuntu...)
   </code>
 </pre>
 
@@ -91,7 +92,7 @@ carpeta on estem treballant han canviat. Per instal·lar la comanda
 
 <pre class=prettyprint>
   <code>
-  find . | entr ~/reload-chrome.sh
+  $ find . | entr ~/reload-chrome.sh
   </code>
 </pre>
 

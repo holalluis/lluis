@@ -23,8 +23,9 @@
     <h3>Hola</h3>
     <article>
       <p>
-      Em dic Lluís Bosch i aquesta és la meva pàgina personal. M'agraden els ordinadors,
-      programar, el software lliure, la tecnologia, la ciència, les matemàtiques i el minimalisme.
+      Em dic Lluís Bosch i aquesta és la meva pàgina personal. Sóc biotecnòleg,
+      m'agraden els ordinadors, programar, el software lliure, la tecnologia,
+      les matemàtiques, i la ciència en general.
       </p>
     </article>
   </div>
@@ -62,7 +63,7 @@
 
   <!--setup-->
   <div>
-    <h3>Setup</h3>
+    <h3>Setup - programes que faig servir</h3>
     <p><i>"Let's use the terminal more, because if you don't use it, your brain gets
     sloppy, and you don't want a sloppy brain".</i></p>
     <ul>

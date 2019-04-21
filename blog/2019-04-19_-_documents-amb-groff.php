@@ -50,8 +50,8 @@ Si no tens <inline>groff</inline> instal·lat, obre un terminal i escriu:
 
 <pre class=prettyprint>
   <code>
-  sudo apt install groff # linux (debian, ubuntu, etc)
-  brew install groff     # mac os x
+  $ sudo apt install groff # linux (debian, ubuntu, etc)
+  $ brew install groff     # mac os x
   </code>
 </pre>
 
@@ -123,7 +123,7 @@ editor de text preferit (<inline>vim</inline>, <inline>emacs</inline>,
 Compila el <inline>document.ms</inline> amb la següent comanda:
 <pre class=prettyprint>
   <code>
-  groff -e -t -ms document.ms -K utf-8 -T pdf &gt; document.ms.pdf
+  $ groff -e -t -ms document.ms -K utf-8 -T pdf &gt; document.ms.pdf
   # la opció -e activa les equacions (paquet 'eqn')
   # la opció -t activa les taules (paquet 'tbl')
   # la opció -ms activa el format 'ms' (hi ha diferents formats dins de groff)
@@ -161,10 +161,10 @@ comanda <inline>make</inline>, que també ja hauria d'estar instal·lada:
 tabulador, donarà error.</small>
 </p><p>
 
-Ara, comprovem que el PDF es compila correctament quan fem la comanda:
+Ara, comprovem que el PDF es compila correctament quan cridem la comanda <inline>make</inline>:
 <pre class=prettyprint>
   <code>
-  make
+  $ make
   </code>
 </pre>
 
@@ -177,8 +177,8 @@ Ara, farem servir la comanda <inline>entr</inline> per automatizar <inline>make<
 Si no tens <inline>entr</inline> instal·lat, obre un terminal i fes:
 <pre class=prettyprint>
   <code>
-  sudo apt install entr # a linux (debian, ubuntu, etc)
-  brew install entr     # a mac os x
+  $ sudo apt install entr # a linux (debian, ubuntu, etc)
+  $ brew install entr     # a mac os x
   </code>
 </pre>
 
@@ -186,7 +186,7 @@ Ara, executem <inline>entr</inline> de la forma següent:
 
 <pre class=prettyprint>
   <code>
-  ls *.ms | entr make
+  $ ls *.ms | entr make
   </code>
 </pre>
 
