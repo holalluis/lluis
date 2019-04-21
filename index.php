@@ -79,15 +79,14 @@
                                    <a href="//https://fishshell.com/"          target=_blank>fish</a> /
                                    <a href="//zsh.sourceforge.net/"            target=_blank>zsh</a>.
       <li>Accés remot:             <a href="//ssh.com/ssh"                     target=_blank>ssh</a>.
-      <li>Agenda:                  <a href="//calcurse.org"                    target=_blank>calcurse + caldav</a>.
+      <li>Agenda:                  <a href="//calcurse.org"                    target=_blank>calcurse</a>.
       <li>Explorador:              <a href="//ranger.github.io"                target=_blank>ranger</a> /
                                    <a href="//vifm.info/"                      target=_blank>vifm</a>.
       <li>Email:                   <a href="//neomutt.org"                     target=_blank>neomutt</a>.
       <li>Fulla de càlcul:         <a href="//github.com/andmarti1424/sc-im"   target=_blank>scim</a>.
-      <li>Elaboració de documents: <a href="//gnu.org/software/groff/"         target=_blank>groff + eqn + tbl</a>.
+      <li>Elaboració de documents: <a href="//gnu.org/software/groff/"         target=_blank>groff</a>.
       <li>Visor documents pdf:     <a href="//pwmt.org/projects/zathura/"      target=_blank>zathura</a>.
-      <li>Reproductor multimèdia:  <a href="//mpv.io"                          target=_blank>mpv</a> /
-                                   <a href="//videolan.org"                    target=_blank>vlc</a>.
+      <li>Reproductor multimèdia:  <a href="//mpv.io"                          target=_blank>mpv</a>.
       <li>Visor imatges:           <a href="https://github.com/muennich/sxiv"  target=_blank>sxiv</a>.
     </ul>
   </div>
