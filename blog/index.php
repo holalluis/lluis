@@ -14,9 +14,9 @@
     $files_in_dir=array_diff(scandir($dir),array('..', '.'));
     rsort($files_in_dir);
     foreach($files_in_dir as $file){
+      if(is_dir($file))continue;
       if($file=='index.php')continue;
       if($file=='css.php')continue;
-      if($file=='adjunts')continue;
       if($file[0]=='.')continue;
       $data = substr($file,0,10);
       $ago  = timeAgo($data);
