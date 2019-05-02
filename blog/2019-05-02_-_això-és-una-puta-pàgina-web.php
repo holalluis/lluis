@@ -12,7 +12,7 @@
 </head><body>
 
 <h1>Això és una puta pàgina web</h1>
-<aside>I és perfecta, joder.</aside>
+<aside>I és perfecta.</aside>
 <h2>Seriosament, què collons més vols?</h2>
 
 <p>
@@ -41,7 +41,7 @@ finalment té box-shadow. Error, cabró, deixa'm descriure la puta web perfecta:
 putes necessites animar el putu banner quan passes el ratolí per sobre
 aquest tros de merda inútil? Has passat hores, total per afegir 80 kb a la teva
 puta web, i tots els idiotes que la miren a l'iPad no veuran mai aquesta
-merda. Tampoc cal mencionar els cecs que no veuran mai aquesta merda, però
+merda. Tampoc cal mencionar els cecs que no veuran mai el banner, però
 com a mínim no veuran mai res de la teva merda de web.</p>
 
 <p>Tu no ho sabies, però aquesta és la web perfecta:</p>

@@ -53,6 +53,7 @@
           $nom = str_replace('_',' ',$nom);
           $nom = str_replace('.php','',$nom);
           $nom = preg_replace('/(\w)-(\w)/i','$1 $2',$nom);
+          $nom = preg_replace('/això-és/i','això és',$nom);
           $nom  = preg_replace('/([a-z])-([a-z])/i','$1 $2',$nom); //a vegades no desapareixen els guions (?)
           $nom = ucfirst($nom);
           echo "<li><a href='blog/$file'>$nom</a> ($timeago)</li>";

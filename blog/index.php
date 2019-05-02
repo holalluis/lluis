@@ -24,6 +24,7 @@
       $nom  = str_replace('_-_',' - ',$nom);
       $nom  = preg_replace('/([a-z])-([a-z])/i','$1 $2',$nom);
       $nom  = preg_replace('/([a-z])-([a-z])/i','$1 $2',$nom); //a vegades no desapareixen els guions (?)
+      $nom = preg_replace('/això-és/i','això és',$nom);
       echo "<li><a href='$file'>$nom</a> ($ago)";
     }
   ?>
