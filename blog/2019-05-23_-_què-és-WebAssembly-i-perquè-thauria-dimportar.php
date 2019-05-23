@@ -3,6 +3,7 @@
   <link rel="stylesheet" href="../css.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" href="../img/favicon.png" type="image/x-icon">
+  <title>Què és WebAssembly i perquè t'hauria d'importar</title>
 </head><body><main>
 
 <!--prettify code lib-->
