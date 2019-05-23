@@ -1,3 +1,27 @@
+<!doctype html><html><head>
+<meta charset=utf-8>
+<link rel="stylesheet" href="../css.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" href="../img/favicon.png" type="image/x-icon">
+</head><body><main>
+
+<!--prettify code lib-->
+<script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"></script>
+<style>
+  pre.prettyprint {
+    border-color:#eee;
+    background:#eee;
+    border-radius:3px;
+  }
+  inline {
+    background:#eee;
+    border-radius:3px;
+    font-family:monospace;
+  }
+</style>
+<h1>Infinits decimals de Pi</h1><hr>
+<!--data--><div><code>[2019-04-27]</code><div><hr>
+<article><p>
 M'inquieta molt que el número Pi (π) tingui infinits decimals
 (3.141592653589793238462643...). Els decimals no es repeteixen seguint cap
 patró, perquè és un número irracional. Això vol dir que en algun punt hi ha
@@ -14,3 +38,10 @@ Pi. Qualsevol cosa que estiguis pensant ara mateix està escrita al número Pi.
 Podries tardar més o menys temps a trobar-ho: però TOT està allà dins. Fins i
 tot, dins de Pi també hi ha escrit aquest comentari. Totes les frases que he
 dit a la meva vida estan escrites allà dins, per ordre cronològic, també.
+</p><!--fi-->
+<p>Salut!</p>
+<p>Lluís</p>
+
+</article><hr>
+
+<a href=index.php>Blog</a>
