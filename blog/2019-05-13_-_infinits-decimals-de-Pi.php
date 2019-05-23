@@ -20,7 +20,7 @@
   }
 </style>
 <h1>Infinits decimals de Pi</h1><hr>
-<!--data--><div><code>[2019-04-27]</code><div><hr>
+<!--data--><div><code>[2019-05-13]</code><div><hr>
 <article><p>
 M'inquieta molt que el número Pi (π) tingui infinits decimals
 (3.141592653589793238462643...). Els decimals no es repeteixen seguint cap

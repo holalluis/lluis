@@ -21,7 +21,7 @@
   }
 </style>
 <h1>Què és WebAssembly i perquè t'hauria d'importar</h1><hr>
-<!--data--><div><code>[2019-04-27]</code><div><hr>
+<!--data--><div><code>[2019-05-23]</code><div><hr>
 <article><p>
 
 <p>
