@@ -4,21 +4,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" href="img/favicon.png" type="image/x-icon">
   <title>
-    lluis.ovh <?php if($_SERVER['SERVER_NAME']=='localhost') echo " (localhost)"?>
+  lluis.ovh <?php if($_SERVER['SERVER_NAME']=='localhost') echo " (localhost)"?>
   </title>
 </head><body>
-
 <h1 style=text-align:center>lluis.ovh</h1>
-
-<style>
-  main {
-    display:grid;
-    grid-template-columns:62% 38%;
-    grid-gap:20px;
-  }
-</style>
-
 <main>
+  <style>
+    main {
+      display:grid;
+      grid-template-columns:62% 38%;
+      grid-gap:20px;
+    }
+  </style>
+
   <!--esquerra-->
   <div>
     <!--hola-->
@@ -100,7 +98,7 @@
     </div>
   </div>
 
-  <!--seccions-->
+  <!--dreta: seccions-->
   <div>
     <h3>Seccions</h3>
     <ul>
