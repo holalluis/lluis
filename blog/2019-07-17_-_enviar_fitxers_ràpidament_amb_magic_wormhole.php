@@ -25,7 +25,7 @@ Resultat:
 </pre>
 
 <p>
-A l'altre ordinador (remot), executar la comanda 'receive' amb el codi d'un
+A l'altre ordinador (remot), executem la comanda 'receive' amb el codi d'un
 sol ús, generat al primer ordinador: en aquest cas, '22-leprosy-scenic':
 </p>
 
@@ -51,9 +51,12 @@ Resultat a l'ordinador remot:
 <p>
   Per tasques senzilles, <inline>wormhole</inline> és molt més apropiat que
   <inline>rsync</inline>, <inline>scp</inline>, i similars, que estan més
-  pensats per servidors. També pot ser útil durant converses per missatgeria
-  instantània, videotrucada, o per telèfon, ja que els codis generats es poden
-  dir fàcilment per telèfon.
+  pensats per servidors, o ordinadors que prèviament hem configurat amb
+  accés <inline>ssh</inline>, i dels quals necessitem saber la direcció ip.
+  En aquest cas, és un gran avantatge no haver de saber la ip, i només haver
+  de saber el codi generat d'un sol ús.  També pot ser útil durant converses
+  per missatgeria instantània, videotrucada, o per telèfon, ja que els codis
+  generats es poden dir fàcilment per telèfon.
 </p>
 
 <h3>Instal·lació</h3>
@@ -66,7 +69,7 @@ Resultat a l'ordinador remot:
 </pre>
 
 <p>
-  Veure documentació oficial:
+  Documentació oficial:
   <a href="https://magic-wormhole.readthedocs.io/en/latest/welcome.html">https://magic-wormhole.readthedocs.io/en/latest/welcome.html</a>
 </p>
 

@@ -17,5 +17,6 @@
     background:#eee;
     border-radius:3px;
     font-family:monospace;
+    font-size:large;
   }
 </style>
