@@ -18,33 +18,33 @@
     else if($seconds <= 60){ return "Ara mateix"; }
     //Minutes
     else if($minutes <=60){
-      if($minutes==1){ return "Fa un minut"; }
-      else{ return "Fa $minutes minuts"; }
+      if($minutes==1){ return "fa un minut"; }
+      else{ return "fa $minutes minuts"; }
     }
     //Hours
     else if($hours <=24){
-      if($hours==1){ return "Fa una hora"; }
-      else{ return "Fa $hours hores"; }
+      if($hours==1){ return "fa una hora"; }
+      else{ return "fa $hours hores"; }
     }
     //Days
     else if($days <= 7){
       if($days==1){ return "Ahir"; }
-      else{ return "Fa $days dies";}
+      else{ return "fa $days dies";}
     }
     //Weeks
     else if($weeks <= 4.3){
-      if($weeks==1){ return "Fa una setmana"; }
-      else{ return "Fa $weeks setmanes"; }
+      if($weeks==1){ return "fa una setmana"; }
+      else{ return "fa $weeks setmanes"; }
     }
     //Months
     else if($months <=12){
-      if($months==1){ return "Fa un mes"; }
-      else{ return "Fa $months mesos";
+      if($months==1){ return "fa un mes"; }
+      else{ return "fa $months mesos";
       } }
     //Years
     else{
-      if($years==1){ return "Fa un any"; }
-      else{ return "Fa $years anys"; }
+      if($years==1){ return "fa un any"; }
+      else{ return "fa $years anys"; }
     }
   }
 ?>
