@@ -50,9 +50,9 @@ El resultat serà que veurem directament el codi de la pàgina web '<a href='//e
 La petició que acabem de fer té aquesta representació esquemàtica:
 
 <pre class=prettyprint><code>
-  +------------------+   +----------------------------+
-  | el teu ordinador | → | servidor web 'example.com' |
-  +------------------+   +----------------------------+
+  +------------------+     +----------------------------+
+  | el teu ordinador | --> | servidor web 'example.com' |
+  +------------------+     +----------------------------+
                1.1.1.1   registre:
                          "1.1.1.1 ha consultat 'index.html' a les 14:45"
 </code>
@@ -71,17 +71,17 @@ la direcció aleatòria <inline>4.4.4.4</inline>, que pot ser un ordinador que
 estigui a qualsevol lloc del món. El que passarà ara és:
 
 <pre class=prettyprint><code>
-+------------------+   +---------+   +---------------------------+
-| el teu ordinador | → |   tor   | → | servidor web 'example.com'|
-+------------------+   |         |   +---------------------------+
-             1.1.1.1   | 1.1.1.1 |   registre:
-                       |    ↓    |   "4.4.4.4 consulta 'index.html' a les 14:45"
-                       | 2.2.2.2 |
-                       |    ↓    |
-                       | 3.3.3.3 |
-                       |    ↓    |
-                       | 4.4.4.4 |
-                       +---------+
++------------------+      +---------+      +---------------------------+
+| el teu ordinador | ---> |   tor   | ---> | servidor web 'example.com'|
++------------------+      |         |      +---------------------------+
+             1.1.1.1      | 1.1.1.1 |      registre:
+                          |    ↓    |      "4.4.4.4 consulta 'index.html' a les 14:45"
+                          | 2.2.2.2 |
+                          |    ↓    |
+                          | 3.3.3.3 |
+                          |    ↓    |
+                          | 4.4.4.4 |
+                          +---------+
 </code>
 </pre>
 
