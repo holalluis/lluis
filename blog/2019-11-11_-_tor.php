@@ -53,8 +53,8 @@ La petició que acabem de fer té aquesta representació esquemàtica:
   +------------------+     +----------------------------+
   | el teu ordinador | --> | servidor web 'example.com' |
   +------------------+     +----------------------------+
-               1.1.1.1   registre:
-                         "1.1.1.1 ha consultat 'index.html' a les 14:45"
+               1.1.1.1     registre:
+                           "1.1.1.1 ha consultat 'index.html' a les 14:45"
 </code>
 </pre>
 
