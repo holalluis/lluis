@@ -21,14 +21,14 @@
       $data = substr($file,0,10);
       $ago  = timeAgo($data);
       $nom  = str_replace('.php','',$file);
-      $nom  = str_replace('_-_',' - ',$nom);
+      $nom  = str_replace('_-_',' | ',$nom);
       $nom  = str_replace('_',' ',$nom);
       $nom  = preg_replace('/([a-z])-([a-z])/i','$1 $2',$nom);
       $nom  = preg_replace('/([a-z])-([a-z])/i','$1 $2',$nom); //a vegades no desapareixen els guions (?)
       $nom  = preg_replace('/això-és/i','això és',$nom);
       $nom  = preg_replace('/uè-és/i','uè és',$nom);
       $nom  = preg_replace('/perquè-thauria dimportar/i',"perquè t'hauria d'importar",$nom);
-      echo "<li><a href='$file'>$nom</a> ($ago)";
+      echo "<li><a href='$file' style=font-family:monospace>$nom</a> ($ago)";
     }
   ?>
 </ul>
