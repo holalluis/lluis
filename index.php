@@ -24,14 +24,15 @@
       <h3>Hola</h3>
       <article>
         <p>
-        Em dic Lluís Bosch i aquesta és la meva pàgina personal. Sóc biotecnòleg,
-        m'agraden els ordinadors, programar, el software lliure, la tecnologia,
-        les matemàtiques, i la ciència en general.
+          Em dic Lluís Bosch i aquesta és la meva pàgina personal.  Sóc
+          biotecnòleg i programador. Crec en el software lliure.  M'agraden les
+          matemàtiques, la tecnologia, els ordinadors, la física, la química i la
+          biologia.
         </p>
       </article>
     </div><hr>
 
-    <!--blog-->
+    <!--blog recent-->
     <div>
       <h3><a href=blog>Blog</a> <small>(entrades recents)</small></h3>
       <ul>
@@ -70,16 +71,17 @@
     <!--setup-->
     <div>
       <h3>Setup - programes que faig servir</h3>
-      <p><i>"Let's use the terminal more, because if you don't use it, your brain gets
-      sloppy, and you don't want a sloppy brain".</i></p>
+      <p><i>"Let's use the terminal more, because if you don't use it, your
+      brain gets sloppy, and you don't want a sloppy brain".</i></p>
       <ul>
         <li>Sistem operatiu:         <a href="https://www.gnu.org/"              target=_blank>GNU Linux</a> /
-                                     <a href=//debian.org                        target=_blank>debian</a> (amb
-                                     <a href="//i3wm.org"                        target=_blank>i3</a> /
-                                     <a href="//gnome.org"                       target=_blank>gnome</a>).
-        <li>Terminal manager:        <a href="//tmux.github.io"                  target=_blank>tmux</a>.
         <li>Editor de text:          <a href="//www.vim.org/"                    target=_blank>vim</a> /
                                      <a href="//neovim.io/"                      target=_blank>neovim</a>.
+                                     <a href=//debian.org                        target=_blank>debian</a>
+                                     (<a href="//i3wm.org"                       target=_blank>i3wm</a> +
+                                     <a href="//gnome.org"                       target=_blank>gnome</a>).
+        <li>Terminal:                <a href="//st.suckles.org"                  target=_blank>st</a>
+        <li>Terminal multiplexer:    <a href="//tmux.github.io"                  target=_blank>tmux</a>.
         <li>Control de versions:     <a href="//git-scm.org"                     target=_blank>git</a>.
         <li>Shell:                   <a href="//gnu.org/software/bash/bash.html" target=_blank>bash</a> /
                                      <a href="//https://fishshell.com/"          target=_blank>fish</a> /
@@ -105,8 +107,8 @@
       <li><a href=blog>blog</a>
       <li><a href=biblioteca>biblioteca</a>
       <li>sobre mi<ul>
-        <li><a href=mail.php>email</a>
         <li><a href=//github.com/holalluis target=_blank>github</a>
+        <li><a href=mail.php>email</a>
         <li><a href=//www.linkedin.com/in/holalluis target=_blank>linkedin</a>
         <li><a href=cv.php>currículum</a>
       </ul>

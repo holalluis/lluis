@@ -1,8 +1,8 @@
 body{
   color: #5C5C5C;
   overflow-y:scroll;
-  font-family: Charter, serif;
-  font-family: Roboto Slab, Roboto, Calibri, Corbel, sans-serif;
+  font-family:Roboto Slab, Roboto, Calibri, Corbel, sans-serif;
+  font-family: Merriweather,Georgia,serif;
 }
 
 /*
