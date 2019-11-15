@@ -33,17 +33,15 @@ Fem una consulta a la pàgina web <inline>'example.com'</inline>, amb la comanda
 
 El resultat serà que veurem directament el codi de la pàgina web '<a href='//example.com/index.html'>example.com/index.html</a>' al terminal:
 
-<pre class=prettyprint><code><xmp>
-  <!doctype html>
-  <html>
-  <head>
-      <title>Example Domain</title>
-
-      <meta charset="utf-8" />
-      <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
-      <meta name="viewport" content="width=device-width, initial-scale=1" />
-      [...]
-</xmp>
+<pre class=prettyprint><code>
+  &lt;!doctype html&gt;
+  &lt;html&gt;
+  &lt;head&gt;
+    &lt;title>Example Domain&lt;/title&gt;
+    &lt;meta charset="utf-8" /&gt;
+    &lt;meta http-equiv="Content-type" content="text/html; charset=utf-8"&gt;
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1"&gt;
+    [...]
 </code>
 </pre>
 

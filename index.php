@@ -71,32 +71,32 @@
     <!--setup-->
     <div>
       <h3>Setup - programes que faig servir</h3>
-      <p><i>"Let's use the terminal more, because if you don't use it, your
-      brain gets sloppy, and you don't want a sloppy brain".</i></p>
       <ul>
         <li>Sistem operatiu:         <a href="https://www.gnu.org/"              target=_blank>GNU Linux</a> /
-        <li>Editor de text:          <a href="//www.vim.org/"                    target=_blank>vim</a> /
-                                     <a href="//neovim.io/"                      target=_blank>neovim</a>.
                                      <a href=//debian.org                        target=_blank>debian</a>
                                      (<a href="//i3wm.org"                       target=_blank>i3wm</a> +
-                                     <a href="//gnome.org"                       target=_blank>gnome</a>).
+                                     <a href="//gnome.org"                       target=_blank>gnome</a>)
+        <li>Editor de text:          <a href="//www.vim.org/"                    target=_blank>vim</a> /
+                                     <a href="//neovim.io/"                      target=_blank>neovim</a>
         <li>Terminal:                <a href="//st.suckles.org"                  target=_blank>st</a>
-        <li>Terminal multiplexer:    <a href="//tmux.github.io"                  target=_blank>tmux</a>.
-        <li>Control de versions:     <a href="//git-scm.org"                     target=_blank>git</a>.
+        <li>Terminal multiplexer:    <a href="//tmux.github.io"                  target=_blank>tmux</a>
+        <li>Control de versions:     <a href="//git-scm.org"                     target=_blank>git</a>
         <li>Shell:                   <a href="//gnu.org/software/bash/bash.html" target=_blank>bash</a> /
                                      <a href="//https://fishshell.com/"          target=_blank>fish</a> /
-                                     <a href="//zsh.sourceforge.net/"            target=_blank>zsh</a>.
-        <li>Accés remot:             <a href="//ssh.com/ssh"                     target=_blank>ssh</a>.
-        <li>Agenda:                  <a href="//calcurse.org"                    target=_blank>calcurse</a>.
+                                     <a href="//zsh.sourceforge.net/"            target=_blank>zsh</a>
+        <li>Accés remot:             <a href="//ssh.com/ssh"                     target=_blank>ssh</a>
+        <li>Agenda:                  <a href="//calcurse.org"                    target=_blank>calcurse</a>
         <li>Explorador:              <a href="//ranger.github.io"                target=_blank>ranger</a> /
-                                     <a href="//vifm.info/"                      target=_blank>vifm</a>.
-        <li>Email:                   <a href="//neomutt.org"                     target=_blank>neomutt</a>.
-        <li>Fulla de càlcul:         <a href="//github.com/andmarti1424/sc-im"   target=_blank>scim</a>.
-        <li>Elaboració de documents: <a href="//gnu.org/software/groff/"         target=_blank>groff</a>.
-        <li>Visor documents pdf:     <a href="//pwmt.org/projects/zathura/"      target=_blank>zathura</a>.
-        <li>Reproductor multimèdia:  <a href="//mpv.io"                          target=_blank>mpv</a>.
-        <li>Visor imatges:           <a href="https://github.com/muennich/sxiv"  target=_blank>sxiv</a>.
+                                     <a href="//vifm.info/"                      target=_blank>vifm</a>
+        <li>Email:                   <a href="//neomutt.org"                     target=_blank>neomutt</a>
+        <li>Fulla de càlcul:         <a href="//github.com/andmarti1424/sc-im"   target=_blank>scim</a>
+        <li>Elaboració de documents: <a href="//gnu.org/software/groff/"         target=_blank>groff</a>
+        <li>Visor documents pdf:     <a href="//pwmt.org/projects/zathura/"      target=_blank>zathura</a>
+        <li>Reproductor multimèdia:  <a href="//mpv.io"                          target=_blank>mpv</a>
+        <li>Visor imatges:           <a href="https://github.com/muennich/sxiv"  target=_blank>sxiv</a>
       </ul>
+      <p><i>"Let's use the terminal more, because if you don't use it, your
+      brain gets sloppy, and you don't want a sloppy brain".</i></p>
     </div>
   </div>
 
