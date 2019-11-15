@@ -25,9 +25,10 @@
       <article>
         <p>
           Em dic Lluís Bosch i aquesta és la meva pàgina personal.  Sóc
-          biotecnòleg i programador. Crec en el software lliure.  M'agraden les
-          matemàtiques, la tecnologia, els ordinadors, la física, la química i la
-          biologia.
+          biotecnòleg i programador.
+          M'agraden les matemàtiques, la tecnologia, els ordinadors, la física,
+          la química i la biologia.
+          Crec en el software lliure.
         </p>
       </article>
     </div><hr>

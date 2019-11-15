@@ -62,7 +62,7 @@ Resultat a l'ordinador remot:
 <h3>Instal·lació</h3>
 <pre class=prettyprint>
   <code>
-  $ sudp apt install magic-wormhole # debian, ubuntu
+  $ sudo apt install magic-wormhole # debian, ubuntu
   $ brew install magic-wormhole     # OS X
   $ pip install magic-wormhole      # windows
   </code>

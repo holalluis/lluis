@@ -36,8 +36,7 @@ escrita en codi ASCII en algun punt del número Pi. Tots els noms i cognoms de
 tota la gent que ha viscut i que viurà al planeta Terra estan escrits al número
 Pi. Qualsevol cosa que estiguis pensant ara mateix està escrita al número Pi.
 Podries tardar més o menys temps a trobar-ho: però TOT està allà dins. Fins i
-tot, dins de Pi també hi ha escrit aquest comentari. Totes les frases que he
-dit a la meva vida estan escrites allà dins, per ordre cronològic, també.
+tot, dins de Pi també hi ha escrit aquest comentari.
 </p><!--fi-->
 <p>Salut!</p>
 <p>Lluís</p>
