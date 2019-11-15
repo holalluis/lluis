@@ -62,7 +62,7 @@
             $nom = ucfirst($nom);
             echo "<li><a href='blog/$file'>$nom</a> ($timeago)</li>";
             $i++;
-            if($i>10)break;
+            if($i>5)break;
           }
         ?>
       </ul>
@@ -108,7 +108,7 @@
       <li><a href=biblioteca>biblioteca</a>
       <li>sobre mi<ul>
         <li><a href=//github.com/holalluis target=_blank>github</a>
-        <li><a href=mail.php>email</a>
+        <li><a href=mail.php>mail</a>
         <li><a href=//www.linkedin.com/in/holalluis target=_blank>linkedin</a>
         <li><a href=cv.php>currículum</a>
       </ul>
