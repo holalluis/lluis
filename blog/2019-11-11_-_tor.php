@@ -5,10 +5,8 @@
 La comanda <inline>tor</inline> permet fer networking de forma anònima.
 <br><br>
 
-No parlaré de <inline>Tor Browser</inline>, que és un explorador web amb
-<inline>tor</inline> incorporat, i que molta gent ja coneix, sinó que explicaré
-amb un exemple com fer servir la comanda <inline>tor</inline> per terminal, que
-fa que qualsevol comanda que executem sigui anònima.
+Explicaré com fer servir la comanda <inline>tor</inline> per terminal, que fa
+que qualsevol comanda que executem sigui anònima.
 <br><br>
 
 La xarxa <inline>tor</inline> funciona així: les peticions entrants a la xarxa
@@ -31,7 +29,7 @@ Fem una consulta a la pàgina web <inline>'example.com'</inline>, amb la comanda
 </code>
 </pre>
 
-El resultat serà que veurem directament el codi de la pàgina web '<a href='//example.com/index.html'>example.com/index.html</a>' al terminal:
+Resultat: codi html de la pàgina '<a href='//example.com/index.html'>example.com/index.html</a>':
 
 <pre class=prettyprint><code>
   &lt;!doctype html&gt;
@@ -45,7 +43,7 @@ El resultat serà que veurem directament el codi de la pàgina web '<a href='//e
 </code>
 </pre>
 
-La petició que acabem de fer té aquesta representació esquemàtica:
+La petició anterior es pot entendre així:
 
 <pre class=prettyprint><code>
   +------------------+     +----------------------------+
@@ -63,10 +61,11 @@ telefònica "<i>qui és la persona que tenia la direcció ip <inline>1.1.1.1</in
 a les 14:45?</i>", llavors ja ens hauran identificat.
 <br><br>
 
-Ara bé, si fem servir <inline>tor</inline>, la nostra petició,
-després de ser redireccionada unes quantes vegades, imaginem que va a parar a
-la direcció aleatòria <inline>4.4.4.4</inline>, que pot ser un ordinador que
-estigui a qualsevol lloc del món. El que passarà ara és:
+Ara bé, si fem servir <inline>tor</inline>, la nostra petició, després de ser
+redireccionada unes quantes vegades, imaginem que va a parar a la direcció
+aleatòria <inline>4.4.4.4</inline>. Aquesta serà la ip que farà contacte al
+servidor, i pot ser un ordinador que estigui a qualsevol lloc del món. El que
+passarà ara és:
 
 <pre class=prettyprint><code>
 +------------------+      +---------+      +---------------------------+
@@ -213,5 +212,6 @@ servir <inline>tor</inline> + <inline>torify</inline>.
 L'exemple més típic pel que podem fer servir <inline>tor</inline> és accedir a
 un xat IRC de forma anònima, fent servir algun client IRC per terminal, com ara
 <inline>irssi</inline>.
+<br><br>
 
 <!--fi--><p>Salut!</p><p>Lluís</p></article><hr><a href=index.php>Blog</a>
