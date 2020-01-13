@@ -11,11 +11,8 @@
     $months     = round($time_elapsed / 2600640 );
     $years      = round($time_elapsed / 31207680 );
 
-    if($time_elapsed < 0)
-    { return timeTo($time); }
-
     // Seconds
-    else if($seconds <= 60){ return "Ara mateix"; }
+    if($seconds <= 60){ return "Ara mateix"; }
     //Minutes
     else if($minutes <=60){
       if($minutes==1){ return "fa un minut"; }
