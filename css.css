@@ -10,22 +10,18 @@ body{
 58 bytes of css to look great nearly everywhere
 https://jrl.ninja/etc/1/
 */
-main {
-  max-width:80ch;
-  padding:1rem;
-  margin:auto;
+main{
+  /* */
 }
 
 hr{
   border:none;
   border-bottom:1px solid #ccc;
 }
-
 h1,h2,h3{
   margin:5px auto;
 }
-
-a {
+a{
   text-decoration:none;
   color:blue;
 }

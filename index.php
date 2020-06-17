@@ -1,24 +1,47 @@
 <!doctype html><html><head>
-  <meta charset=utf-8>
-  <link rel="stylesheet" href="css.css">
+  <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css.css">
   <link rel="icon" href="img/favicon.png" type="image/x-icon">
   <title>
-  lluis.ovh <?php if($_SERVER['SERVER_NAME']=='localhost') echo " (localhost)"?>
+    lluis.ovh
+    <?php
+      //mostra localhost si estàs editant el blog
+      if($_SERVER['SERVER_NAME']=='localhost')
+        echo " (localhost)";
+    ?>
   </title>
 </head><body>
-<h1 style=text-align:center>lluis.ovh</h1>
-<main>
-  <style>
-    main {
-      display:grid;
-      grid-template-columns:62% 38%;
-      grid-gap:20px;
-    }
-  </style>
+<h1>lluis.ovh</h1><hr>
+<main style="display:flex">
+  <!--seccions "pestanyes"-->
+  <div style="padding-right:2em;border-right:1px solid #ccc">
+    <b>Seccions</b>
+    <ul>
+      <li><a href="..">inici</a>
+      <li><a href=blog>blog</a>
+      <li><a href=biblioteca>biblioteca</a>
+      <li><a href=//github.com/holalluis>github</a>
+      <li><a href=//github.com/holalluis/dotfiles>dotfiles</a>
+      <li><a href="../git">git</a>
+    </ul>
 
-  <!--esquerra-->
-  <div>
+    <b>Suport</b>
+    <ul>
+      <li><a href=//paypal.me/lluisma/1>paypal</a>
+      <li><a href=donacions/bitcoin.php>bitcoin</a>
+    </ul>
+
+    <b>Sobre mí</b>
+    <ul>
+      <li><a href=cv.php>currículum</a>
+      <li><a href=mail.php>mail</a>
+      <li><a href=//www.linkedin.com/in/holalluis>linkedin</a>
+    </ul>
+  </div>
+
+  <!--main-->
+  <div style="padding-left:1em">
     <!--hola-->
     <div>
       <h3>Hola</h3>
@@ -26,8 +49,10 @@
         <p>
           Em dic Lluís Bosch i aquesta és la meva pàgina personal.  Sóc
           biotecnòleg i programador.
+
           M'agraden les matemàtiques, la tecnologia, els ordinadors, la física,
           la química i la biologia.
+
           Crec en el software lliure.
         </p>
       </article>
@@ -96,29 +121,21 @@
         <li>Reproductor multimèdia:  <a href="//mpv.io"                          target=_blank>mpv</a>
         <li>Visor imatges:           <a href="https://github.com/muennich/sxiv"  target=_blank>sxiv</a>
       </ul>
-      <p><i>"Let's use the terminal more, because if you don't use it, your
-      brain gets sloppy, and you don't want a sloppy brain".</i></p>
-    </div>
-  </div>
+    </div><hr>
 
-  <!--dreta: seccions-->
-  <div>
-    <h3>Seccions</h3>
-    <ul>
-      <li><a href=blog>blog</a>
-      <li><a href=biblioteca>biblioteca</a>
-      <li>sobre mi<ul>
-        <li><a href=//github.com/holalluis target=_blank>github</a>
-        <li><a href=mail.php>mail</a>
-        <li><a href=//www.linkedin.com/in/holalluis target=_blank>linkedin</a>
-        <li><a href=cv.php>currículum</a>
+    <!--random-->
+    <div>
+      <h3>Cites random trobades per internet i rescatades aquí</h3>
+      <ul>
+        <li>
+          "Let's use the terminal more, because if you don't use it, your brain
+          gets sloppy, and you don't want a sloppy brain."
+        <li>
+          "I am a programmer. I do not deal with digital painting, photo
+          processing, video editing. I don’t really care for wide gamut or even
+          proper color reproduction. I spend most of my days in a text browser,
+          text editor and text terminal, looking at barely moving letters."
       </ul>
-      <li>suport
-        <ul>
-          <li><a href=//paypal.me/lluisma/1 target=_blank>paypal</a>
-          <li><a href=donacions/bitcoin.php>bitcoin</a>
-        </ul>
-      </li>
-    </ul>
+    </div>
   </div>
 </main>

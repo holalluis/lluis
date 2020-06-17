@@ -5,7 +5,11 @@
   <link rel="icon" href="img/favicon.png" type="image/x-icon">
 </head><body>
 
-<h2 style=text-align:center>currículum</h2>
+<h2>
+  <a href="index.php">Inici</a>
+  /
+  currículum (en construcció)
+</h2>
 
 <main>
 <ul>
