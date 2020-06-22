@@ -3,6 +3,7 @@
 #git
 git add *
 git commit -am 'update'
+git push
 
 #desplega la web al servidor
 # -h  human readable format
