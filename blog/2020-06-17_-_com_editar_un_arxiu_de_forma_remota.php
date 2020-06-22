@@ -1,5 +1,7 @@
 <?php include('css.php')?>
+
 <h1>com editar un arxiu de forma remota</h1><hr>
+
 <div><code>2020-06-17</code><div><hr><article>
 
 Vols editar un fitxer que tens a un servidor remot sense haver d'entrar per
@@ -38,4 +40,4 @@ Si tens arxius que edites de forma habitual, pots crear un
 Aquest petit truc és útil per poder editar fitxers ràpidament si treballes des
 de diferents ordinadors.
 
-<p>Salut!</p><p>Lluís</p></article><hr><a href=index.php>Blog</a>
+<p>Salut!</p><p>Lluís</p>

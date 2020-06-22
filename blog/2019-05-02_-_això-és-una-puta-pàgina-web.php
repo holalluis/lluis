@@ -97,5 +97,3 @@ ràpides i accessibles. Tú les trenques, sí, tu, fill-de-puta.</p>
 
 <p>Salut!</p>
 <p>Lluís</p>
-
-<hr><a href=index.php>Blog</a>

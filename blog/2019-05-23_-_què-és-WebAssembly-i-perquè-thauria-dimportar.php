@@ -1,25 +1,5 @@
-<!doctype html><html><head>
-  <meta charset=utf-8>
-  <link rel="stylesheet" href="../css.css">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" href="../img/favicon.png" type="image/x-icon">
-  <title>Què és WebAssembly i perquè t'hauria d'importar</title>
-</head><body><main>
+<?php include('css.php')?>
 
-<!--prettify code lib-->
-<script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"></script>
-<style>
-  pre.prettyprint {
-    border-color:#eee;
-    background:#eee;
-    border-radius:3px;
-  }
-  inline {
-    background:#eee;
-    border-radius:3px;
-    font-family:monospace;
-  }
-</style>
 <h1>Què és WebAssembly i perquè t'hauria d'importar</h1><hr>
 <!--data--><div><code>[2019-05-23]</code><div><hr>
 <article><p>
@@ -128,10 +108,6 @@ oficial</a>.</p>
 
 <p> Aviat veurem coses espectaculars als exploradors web gràcies a WebAssembly.  </p>
 
-</p><!--fi-->
+<!--fi-->
 <p>Salut!</p>
 <p>Lluís</p>
-
-</article><hr>
-
-<a href=index.php>Blog</a>

@@ -1,9 +1,4 @@
-<!doctype html><html><head>
-  <meta charset=utf-8>
-  <link rel="stylesheet" href="../css.css">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" href="../img/favicon.png" type="image/x-icon">
-</head><body><main>
+<?php include'css.php'?>
 <h1>Les meves webs</h1><hr>
 <div><code>[2019-2-22]</code><div><hr>
 <article>
@@ -23,5 +18,4 @@
   <p>Aquí pots trobar <a href=//lluis.ovh>la resta de webs</a>.</p>
   <p>Salut!</p>
   <p>Lluís</p>
-</article><hr>
-<a href=index.php>Blog</a>
+</article>

@@ -96,4 +96,4 @@ Aquí pots veure un vídeo molt breu de tot el procés:
 
 <br><br>
 
-<!--fi--><p>Salut!</p><p>Lluís</p></article><hr><a href=index.php>Blog</a>
+<!--fi--><p>Salut!</p><p>Lluís</p>

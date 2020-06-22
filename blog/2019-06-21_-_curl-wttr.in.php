@@ -1,20 +1,5 @@
-<!doctype html><html><head>
-  <meta charset=utf-8>
-  <link rel="stylesheet" href="../css.css">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" href="../img/favicon.png" type="image/x-icon">
-  <title>curl wttr.in</title>
-  <style>
-    pre{
-      border-color:#eee;
-      background:#eee;
-      border-radius:3px;
-    }
-    main {
-      max-width:110ch;
-    }
-  </style>
-</head><body><main>
+<?php include('css.php')?>
+
 <h1>curl wttr.in</h1><hr>
 <div><code>2019-06-21</code><div><hr><article>
 <p>Vols saber quina és la previsió meteorològica sense haver de sortir del terminal? Fàcil, escriu la comanda:</p>
@@ -142,4 +127,4 @@ URLs especials:
 
 <p>Wttr.in ha estat creat per <a href="https://twitter.com/igor_chubin">Igor Chubin</a>.</p>
 
-<!--fi--><p>Salut!</p><p>Lluís</p></article><hr><a href=index.php>Blog</a>
+<!--fi--><p>Salut!</p><p>Lluís</p>

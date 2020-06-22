@@ -15,7 +15,6 @@ La comanda següent és espectacular:
 <br><br>
 <asciinema-player src="asciinema-player/mapscii.cast"></asciinema-player>
 <script src="asciinema-player/asciinema-player.js"></script>
-
 <br><br>
 
-<!--fi--><p>Salut!</p><p>Lluís</p></article><hr><a href=index.php>Blog</a>
+<!--fi--><p>Salut!</p><p>Lluís</p>

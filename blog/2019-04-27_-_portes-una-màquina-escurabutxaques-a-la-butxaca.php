@@ -59,7 +59,3 @@ la utilitzem, saber quin perill comporta.
 </p><!--fi-->
 <p>Salut!</p>
 <p>Lluís</p>
-
-</article><hr>
-
-<a href=index.php>Blog</a>

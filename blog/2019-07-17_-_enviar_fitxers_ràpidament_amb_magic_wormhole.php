@@ -73,4 +73,4 @@ Resultat a l'ordinador remot:
   <a href="https://magic-wormhole.readthedocs.io/en/latest/welcome.html">https://magic-wormhole.readthedocs.io/en/latest/welcome.html</a>
 </p>
 
-<!--fi--><p>Salut!</p><p>Lluís</p></article><hr><a href=index.php>Blog</a>
+<!--fi--><p>Salut!</p><p>Lluís</p>

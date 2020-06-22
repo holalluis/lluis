@@ -1,24 +1,5 @@
-<!doctype html><html><head>
-<meta charset=utf-8>
-<link rel="stylesheet" href="../css.css">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="icon" href="../img/favicon.png" type="image/x-icon">
-</head><body><main>
+<?php include('css.php')?>
 
-<!--prettify code lib-->
-<script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"></script>
-<style>
-  pre.prettyprint {
-    border-color:#eee;
-    background:#eee;
-    border-radius:3px;
-  }
-  inline {
-    background:#eee;
-    border-radius:3px;
-    font-family:monospace;
-  }
-</style>
 <h1>Infinits decimals de Pi</h1><hr>
 <!--data--><div><code>[2019-05-13]</code><div><hr>
 <article><p>
@@ -37,10 +18,7 @@ tota la gent que ha viscut i que viurà al planeta Terra estan escrits al númer
 Pi. Qualsevol cosa que estiguis pensant ara mateix està escrita al número Pi.
 Podries tardar més o menys temps a trobar-ho: però TOT està allà dins. Fins i
 tot, dins de Pi també hi ha escrit aquest comentari.
-</p><!--fi-->
+</p>
+
 <p>Salut!</p>
 <p>Lluís</p>
-
-</article><hr>
-
-<a href=index.php>Blog</a>

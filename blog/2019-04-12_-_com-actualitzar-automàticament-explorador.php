@@ -117,7 +117,3 @@ una pestanya oberta amb la comanda <inline>entr</inline>.</p>
 
 <p>Salut!</p>
 <p>Lluís</p>
-
-</article><hr>
-
-<a href=index.php>Blog</a>

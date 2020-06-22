@@ -23,3 +23,5 @@
     padding:0 0.5em;
   }
 </style>
+
+<a href="index.php">&lt;&lt; Blog</a>

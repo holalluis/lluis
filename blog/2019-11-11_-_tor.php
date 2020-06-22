@@ -1,4 +1,5 @@
 <?php include('css.php')?>
+
 <h1>tor</h1><hr>
 <div><code>2019-11-11</code><div><hr><article>
 
@@ -214,4 +215,4 @@ un xat IRC de forma anònima, fent servir algun client IRC per terminal, com ara
 <inline>irssi</inline>.
 <br><br>
 
-<!--fi--><p>Salut!</p><p>Lluís</p></article><hr><a href=index.php>Blog</a>
+<!--fi--><p>Salut!</p><p>Lluís</p>
