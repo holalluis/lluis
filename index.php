@@ -119,8 +119,8 @@
         <ul>
           <li>Sistem operatiu:         <a href="https://www.gnu.org/"              target=_blank>GNU Linux</a> /
                                        <a href=//debian.org                        target=_blank>debian   </a>
-          <li>Gestor de finestres:    (<a href="//i3wm.org"                        target=_blank>i3wm     </a> /
-                                       <a href="//gnome.org"                       target=_blank>gnome    </a>)
+          <li>Gestor de finestres:     <a href="//i3wm.org"                        target=_blank>i3wm     </a> /
+                                       <a href="//gnome.org"                       target=_blank>gnome    </a>
           <li>Editor de text:          <a href="//www.vim.org/"                    target=_blank>vim      </a> /
                                        <a href="//neovim.io/"                      target=_blank>neovim   </a>
           <li>Terminal:                <a href="//st.suckless.org"                 target=_blank>st       </a>
