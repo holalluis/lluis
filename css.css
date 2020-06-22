@@ -2,27 +2,22 @@ body{
   color: #5C5C5C;
   overflow-y:scroll;
   font-family:Georgia, Times, "Times New Roman", Bodoni, serif, Garamond, "Minion Web", Arial;
-  background:#f8f8f8;
 }
 
-/*
-58 bytes of css to look great nearly everywhere
-https://jrl.ninja/etc/1/
-*/
 main{
   width:53rem;
-  margin:auto;
   background:white;
-  padding:6rem;
 }
 
 hr{
   border:none;
   border-bottom:1px solid #ccc;
 }
+
 h1,h2,h3{
   margin:5px auto;
 }
+
 a{
   text-decoration:none;
   color:blue;
