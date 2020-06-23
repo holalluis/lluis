@@ -52,7 +52,7 @@
         <h3>Hola</h3>
         <article>
           <p>
-            Aquesta és la meva pàgina personal.  Sóc programador
+            Benvingut a la meva pàgina personal.  Sóc programador
             i treballo a <a href="http://icra.cat/">ICRA</a>.
           </p>
 
