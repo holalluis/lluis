@@ -5,7 +5,7 @@ body{
 }
 
 main{
-  width:53rem;
+  max-width:53rem;
 }
 
 hr{
