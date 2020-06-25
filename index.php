@@ -64,7 +64,7 @@
 
           <p>
             Vaig estudiar Biotecnologia (2012, UAB) i un màster en Tecnologies
-            de la informació (UdG).
+            de la informació (2013, UdG).
           </p>
 
           <p>
