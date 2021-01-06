@@ -13,9 +13,9 @@
 </head><body><main>
 <h1>Lluís Mª Bosch</h1>
 <nav>
-  <a href="index.php">Inici</a>      |
-  <a href="about.php">Sobre mí</a>   |
-  <a href="setup.php">Setup</a>      |
-  <a href="cites.php">Random</a>     |
+  <a href="index.php">Inici</a> |
+  <a href="about.php">Sobre mí</a> |
+  <a href="setup.php">Setup</a> |
+  <a href="cites.php">Random</a> |
   <a href="biblioteca">Biblioteca</a>
 </nav><hr>
