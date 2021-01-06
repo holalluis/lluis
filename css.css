@@ -1,35 +1,8 @@
 body{
-  color: #5C5C5C;
-  overflow-y:scroll;
-  font-family:Georgia, Times, "Times New Roman", Bodoni, serif, Garamond, "Minion Web", Arial;
 }
-
 main{
   max-width:53rem;
 }
-
-hr{
-  border:none;
-  border-bottom:1px solid #ccc;
-}
-
-h1,h2,h3{
-  margin:5px auto;
-}
-
-a{
-  text-decoration:none;
-  color:blue;
-}
-a:hover{
-  text-decoration:underline;
-}
-
 ul{
-  padding-left:1.5em;
-}
-
-.flex {
-  display:flex;
-  flex-wrap:wrap;
+  padding-left:2em;
 }
