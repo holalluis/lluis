@@ -13,18 +13,18 @@
       if($file=='css.php')continue;
       if($file[0]=='.')continue;
 
-      $date = substr($file,0,10); //string de 10 caràcters (data)
+      $date    = substr($file,0,10); //string de 10 caràcters (data)
       $timeago = timeAgo($date);  //string ("fa 2 mesos")
-      $nom = substr($file,13);    //titol article comença a la posició 13
-      $nom = str_replace('_',' ',$nom);
-      $nom = str_replace('.php','',$nom);
-      $nom = preg_replace('/(\w)-(\w)/i','$1 $2',$nom);
-      $nom = preg_replace('/això-és/i','això és',$nom);
-      $nom = preg_replace('/uè-és/i','uè és',$nom);
-      $nom = preg_replace('/([a-z])-([a-z])/i','$1 $2',$nom); //a vegades no desapareixen els guions (?)
-      $nom = preg_replace('/perquè-thauria dimportar/i',"perquè t'hauria d'importar",$nom);
-      $nom = ucfirst($nom);
-      echo "<li><a href='blog/$file'>$nom</a> ($timeago)</li>";
+      $nom     = substr($file,13);    //titol article comença a la posició 13
+      $nom     = str_replace('_',' ',$nom);
+      $nom     = str_replace('.php','',$nom);
+      $nom     = preg_replace('/(\w)-(\w)/i','$1 $2',$nom);
+      $nom     = preg_replace('/(.)-(.)/i','$1 $2',$nom); //a vegades no desapareixen els guions (?)
+      $nom     = ucfirst($nom);
+
+      echo "<li>
+        <a href='blog/$file'>$nom</a> ($timeago)
+      </li>";
     }
   ?>
 </ul>

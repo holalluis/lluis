@@ -20,7 +20,7 @@ va començar <a href="//info.cern.ch">un projecte (info.cern.ch)</a> per restaur
 
 <p>
 El 30 d'abril de 1993, el CERN va posar el software World Wide Web al domini
-públic. Després el CERN va publicar-lo amb amb una llicència oberta, una manera
+públic. Després, el CERN va publicar-lo amb una llicència oberta, una manera
 més segura de maximitzar-ne la seva difusió.  Aquestes accions van permetre a
 la web que coneixem avui dia començar la seva història.
 </p>

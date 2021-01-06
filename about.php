@@ -1,7 +1,7 @@
 <?php include'header.php'?>
 <b>Sobre mí</b>
 <p>
-  Benvingut a la meva pàgina personal. Aquí hi trobaràs articles sobre Linux,
+  Benvingut a la meva pàgina personal: aquí hi trobaràs articles sobre Linux,
   software lliure, matemàtiques, física, química i biologia.
 </p>
 <ul>
