@@ -14,8 +14,8 @@
 
 <b>Links</b>
 <ul>
-  <li><a href="//www.linkedin.com/in/holalluis">linkedin</a>
-  <li><a href="//www.twitter.com/lluisma">twitter</a>
   <li><a href="//github.com/holalluis">github</a>
   <li><a href="mail.php">mail</a>
+  <li><a href="//www.linkedin.com/in/holalluis">linkedin</a>
+  <li><a href="//www.twitter.com/lluisma">twitter</a>
 </ul>
