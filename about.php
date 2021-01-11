@@ -6,8 +6,10 @@
 </p>
 <ul>
   <li>Treballo al centre de recerca <a href=//github.com/icra target=_blank>ICRA</a> (des del 2013).
-  <li>MSc en Computer Science     (<a href=//udg.edu target=_blank>UdG</a> 2012).
+  <li>Màster en Tecnologies de la Informació (<a href=//udg.edu target=_blank>UdG</a> 2012).
   <li>Llicenciat en Biotecnologia (<a href=//uab.cat target=_blank>UAB</a> 2011).
+  <li>Visc a Anglès (Girona, Catalunya).
+  <li>Vaig néixer el 1989.
 </ul>
 
 <b>Links</b>
