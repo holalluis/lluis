@@ -17,6 +17,7 @@
   <li>Accés remot:             <a href="//ssh.com/ssh"                     >ssh</a>
   <li>Agenda:                  <a href="//calcurse.org"                    >calcurse</a>
   <li>Navegador d'arxius:      <a href="//ranger.github.io"                >ranger</a> /
+                               <a href="//github.com/jarun/nnn"            >nnn</a> /
                                <a href="//vifm.info/"                      >vifm</a>
   <li>Email:                   <a href="//neomutt.org"                     >neomutt</a>
   <li>Elaboració de documents: <a href="//gnu.org/software/groff/"         >groff</a>
