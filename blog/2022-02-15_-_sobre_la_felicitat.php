@@ -5,7 +5,7 @@
 <div style="background:#eee">
 <p>
 "He descobert que la felicitat és <b>plaer</b>, i que la felicitat és
-<b>joia</b>. Vivim en aquests dos móns alhora.
+<b>joia</b>. Vivim aquests dos móns alhora.
 </p>
 
 <p>
