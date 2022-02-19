@@ -17,5 +17,6 @@
   <a href="about.php">Sobre mí</a> |
   <a href="setup.php">Setup</a> |
   <a href="cites.php">Random</a> |
-  <a href="biblioteca">Biblioteca</a>
+  <a href="biblioteca">Biblioteca</a> |
+  <a href="rss.xml">RSS</a>
 </nav><hr>

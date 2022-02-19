@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"><channel>
+<title>Lluís Mª Bosch</title>
+<description>Lluís Mª Bosch</description>
+<language>ca</language>
+<link>https://lluis.ovh/lluis/rss.xml</link>
+
+<item>
+<title>sobre la felicitat</title>
+<pubDate>2022-02-15</pubDate>
+<link>https://lluis.ovh/lluis/blog/2022-02-15_-_sobre_la_felicitat.php</link>
+<description><![CDATA[nou article al blog!]]></description>
+</item>
+<item>
+<title>la comanda fzf</title>
+<pubDate>2021-11-13</pubDate>
+<link>https://lluis.ovh/lluis/blog/2021-11-13_-_la_comanda_fzf.php</link>
+<description><![CDATA[nou article al blog!]]></description>
+</item>
+<item>
+<title>les meves webs</title>
+<pubDate>2019-02-22</pubDate>
+<link>https://lluis.ovh/lluis/blog/2019-02-22_-_les-meves-webs.php</link>
+<description><![CDATA[nou article al blog!]]></description>
+</item>
+<item>
+<title>el naixement de la web</title>
+<pubDate>2021-01-06</pubDate>
+<link>https://lluis.ovh/lluis/blog/2021-01-06_-_el_naixement_de_la_web.php</link>
+<description><![CDATA[nou article al blog!]]></description>
+</item>
+<item>
+<title>com comptar fins a 31 amb una sola ma</title>
+<pubDate>2020-11-15</pubDate>
+<link>https://lluis.ovh/lluis/blog/2020-11-15_-_com_comptar_fins_a_31_amb_una_sola_ma.php</link>
+<description><![CDATA[nou article al blog!]]></description>
+</item>
+<item>
+<title>com editar un arxiu de forma remota</title>
+<pubDate>2020-06-17</pubDate>
+<link>https://lluis.ovh/lluis/blog/2020-06-17_-_com_editar_un_arxiu_de_forma_remota.php</link>
+<description><![CDATA[nou article al blog!]]></description>
+</item>
+<item>
+<title>google maps al terminal</title>
+<pubDate>2020-02-06</pubDate>
+<link>https://lluis.ovh/lluis/blog/2020-02-06_-_google-maps-al-terminal.php</link>
+<description><![CDATA[nou article al blog!]]></description>
+</item>
+<item>
+<title>espai lliure</title>
+<pubDate>2020-01-14</pubDate>
+<link>https://lluis.ovh/lluis/blog/2020-01-14_-_espai-lliure.php</link>
+<description><![CDATA[nou article al blog!]]></description>
+</item>
+<item>
+<title>tor</title>
+<pubDate>2019-11-11</pubDate>
+<link>https://lluis.ovh/lluis/blog/2019-11-11_-_tor.php</link>
+<description><![CDATA[nou article al blog!]]></description>
+</item>
+<item>
+<title>enviar fitxers ràpidament amb magic wormhole</title>
+<pubDate>2019-07-17</pubDate>
+<link>https://lluis.ovh/lluis/blog/2019-07-17_-_enviar_fitxers_ràpidament_amb_magic_wormhole.php</link>
+<description><![CDATA[nou article al blog!]]></description>
+</item>
+<item>
+<title>curl wttr.in</title>
+<pubDate>2019-06-21</pubDate>
+<link>https://lluis.ovh/lluis/blog/2019-06-21_-_curl-wttr.in.php</link>
+<description><![CDATA[nou article al blog!]]></description>
+</item>
+<item>
+<title>la consola de Linux a Windows 10</title>
+<pubDate>2019-06-06</pubDate>
+<link>https://lluis.ovh/lluis/blog/2019-06-06_-_la-consola-de-Linux-a-Windows-10.php</link>
+<description><![CDATA[nou article al blog!]]></description>
+</item>
+<item>
+<title>què és WebAssembly i perquè thauria dimportar</title>
+<pubDate>2019-05-23</pubDate>
+<link>https://lluis.ovh/lluis/blog/2019-05-23_-_què-és-WebAssembly-i-perquè-thauria-dimportar.php</link>
+<description><![CDATA[nou article al blog!]]></description>
+</item>
+<item>
+<title>infinits decimals de Pi</title>
+<pubDate>2019-05-13</pubDate>
+<link>https://lluis.ovh/lluis/blog/2019-05-13_-_infinits-decimals-de-Pi.php</link>
+<description><![CDATA[nou article al blog!]]></description>
+</item>
+<item>
+<title>això és una puta pàgina web</title>
+<pubDate>2019-05-02</pubDate>
+<link>https://lluis.ovh/lluis/blog/2019-05-02_-_això-és-una-puta-pàgina-web.php</link>
+<description><![CDATA[nou article al blog!]]></description>
+</item>
+<item>
+<title>portes una màquina escurabutxaques a la butxaca</title>
+<pubDate>2019-04-27</pubDate>
+<link>https://lluis.ovh/lluis/blog/2019-04-27_-_portes-una-màquina-escurabutxaques-a-la-butxaca.php</link>
+<description><![CDATA[nou article al blog!]]></description>
+</item>
+<item>
+<title>documents amb groff</title>
+<pubDate>2019-04-19</pubDate>
+<link>https://lluis.ovh/lluis/blog/2019-04-19_-_documents-amb-groff.php</link>
+<description><![CDATA[nou article al blog!]]></description>
+</item>
+<item>
+<title>com actualitzar automàticament explorador</title>
+<pubDate>2019-04-12</pubDate>
+<link>https://lluis.ovh/lluis/blog/2019-04-12_-_com-actualitzar-automàticament-explorador.php</link>
+<description><![CDATA[nou article al blog!]]></description>
+</item>
+<item>
+<title>primer post</title>
+<pubDate>2018-12-15</pubDate>
+<link>https://lluis.ovh/lluis/blog/2018-12-15_-_primer-post.php</link>
+<description><![CDATA[nou article al blog!]]></description>
+</item>
+</channel></rss>
