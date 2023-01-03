@@ -28,3 +28,4 @@
     }
   ?>
 </ul>
+<?php include'turfwar.php'?>
