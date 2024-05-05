@@ -8,8 +8,8 @@ dobles sentits poden causar molt més dany que qualsevol arma.
 </p>
 
 <p>
-El que m'agrada del codi és que sempre diu la veritat. El codi executable és la
-cosa més honesta, virtuosa i democràtica que mai ha inventat la humanitat. Vols
+El que m'agrada del codi és que sempre diu la veritat: <b>el codi executable és la
+cosa més honesta, virtuosa i democràtica que mai ha inventat la humanitat</b>. Vols
 saber si un codi fa alguna cosa útil? Executa'l i mira si funciona.
 </p>
 
@@ -19,7 +19,7 @@ No pots fer això amb el català, l'anglès, el castellà... on tot el que impor
 </p>
 
 <p>
-Fins i tot les matemàtiques no són tan bones: per exemple, les equacions LaTeX
-no són executables i, per tant, requereixen molt més esforç per saber si diuen
-alguna cosa útil.
+Fins i tot les matemàtiques escrites són inferiors en aquest sentit: per
+exemple, les equacions LaTeX no són executables i, per tant, requereixen
+més esforç per saber si diuen alguna cosa útil.
 </p>
