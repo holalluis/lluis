@@ -9,12 +9,12 @@
 <script src=js/run_prettify.js></script>
 
 <style>
-  pre.prettyprint {
+  pre.prettyprint{
     border-color:#eee;
     background:#eee;
     border-radius:3px;
   }
-  inline {
+  inline{
     background:#eee;
     border-radius:3px;
     font-family:monospace;
