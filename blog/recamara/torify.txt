@@ -1,0 +1,61 @@
+Today I want to show some simple uses of the command torify that can be used
+from the Linux terminal.
+
+torify is a simple wrapper that attempts to find the best underlying Tor
+wrapper available on a system. It calls torsocks or tsocks with a tor specific
+configuration file.
+
+As first thing install the software, tor is usually found on all the repository
+so for Debian, Ubuntu and Mint you just have to type:
+
+sudo apt-get install tor
+
+In this example we’ll keep all the standard configuration but 2 things, in the
+file /etc/tor/torrc you should uncomment the directive:
+
+ControlPort 9051
+
+And set
+
+CookieAuthentication 0
+
+With these 2 options we set the port on which Tor will listen for local
+connections from Tor controller applications, and we tell to Tor that we don’t
+need an authentication, so any program can control Tor (don’t do this on a
+shared computer or server), later in this post I’ll show how to set a password,
+once changed save the file and restart tor with the command:
+
+sudo /etc/init.d/tor restart
+
+And now a simple example that shows how to use the command torify and start a
+new session on tor from the Linux terminal, as first thing I get my public IP
+address with:
+
+$  curl ifconfig.me
+79.35.56.153
+
+So 79.35.56.153 is my public IP, now I use torify before the command curl in
+the command line :
+
+$ torify curl ifconfig.me 2&gt;/dev/null
+74.120.15.150
+
+As you can see now I browse on the net with a different Ip: 74.120.15.150, but
+from the command line I can also force Tor to start a “new session” with the
+command:
+
+echo -e 'AUTHENTICATE ""\r\nsignal NEWNYM\r\nQUIT' | nc 127.0.0.1 9051
+250 OK
+250 OK
+250 closing connection
+
+This small script connects to port 9051 and issue the command “signal newnym”
+that will make Tor switch to clean circuits, so new application requests don’t
+share any circuits with old ones, now if I check my IP I expect to see a new
+one:
+
+$ torify curl ifconfig.me 2&gt;/dev/null
+46.59.74.15
+
+In this small example I’ve used curl to get my ip address, but with torify you
+could use almost any terminal program, such as ssh, wget, w3m or BitchX.
